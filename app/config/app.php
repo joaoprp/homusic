@@ -124,6 +124,8 @@ return array(
 
 		'Pingpong\Admin\Providers\SupportServiceProvider',
 		'Pingpong\Admin\AdminServiceProvider',
+
+		'Drparham\Reservations\ReservationsServiceProvider',
 	),
 
 	/*

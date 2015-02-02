@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Scroll&amp;Strap | Bootstrap Responsive Template</title>
+<title>@yield('title')</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="">
 <meta name="author" content="">
@@ -45,17 +45,17 @@
     <div class="navbar navbar-static-top" id="topnavbar"> 
       <!-- navbar-fixed-top -->
       <div class="navbar-inner" id="navbartop">
-        <div class="container"> <a class="brand" href="index.html"> 
-		<span><i class="fa-icon-circle-arrow-down"></i> SCROLL&amp;STRAP</span>
+        <div class="container"> <a class="pull-left" href="/"> 
+		<img src="assets/img/logo.png" alt="Logo" style="margin-right:30px;height:39px!important" />
 		<!--<img src="assets/img/Logo.png" alt="Logo">--></a>
           <div id="main-nav" class="scroller-spy">
             <nav class="nav-collapse collapse" >
               <ul class="nav" id="nav">
                 <li class="active"><a href="#header-section">Home</a> </li>
-				<li><a href="#features-section">Service</a> </li>
-				<li><a href="#team-section">About us</a> </li>
-				<li><a href="#portfolio-section">Works</a> </li>
-				<li><a href="#price-section">Price</a> </li>
+				<li><a href="#features-section">Academy</a> </li>
+				<li><a href="#team-section">Music Lessons</a> </li>
+				<li><a href="#portfolio-section">FAQ</a> </li>
+				<li><a href="#price-section">News</a> </li>
 				<li><a href="#contact-section">Contact</a> </li>
               </ul>
             </nav>
@@ -78,33 +78,7 @@
 	<div class="row-fluid">
 		<div class="wrap-hero">
 			<div class="hero-unit text-center">
-				<!--LOGO-->
-				<div class="logo">
-					<a href="#" title="Scroll&amp;Strap">
-						<img src="assets/img/logo_1.png" alt="logo"/>
-					</a>
-				</div>
-				<!--/ LOGO-->
 				
-					<div class="inner-wrap-hero">
-					
-						<h1 class="text-center main-color"> 
-							
-						<span>MODERN PARALLAX ONEPAGER<!--INTRODUCING SCROLL&amp;STRAP!--></span>
-							<span class="visible-desktop">MODERN PARALLAX ONE PAGE  TEMPLATE BUILD ON BOOTSRAP 2.3.0</span>
-						
-							
-						</h1>
-						
-					</div>
-				<!--<hr class="half">-->
-			<span class="gobottom" id="nav2">
-					<a href="#features-section" title="">
-						<i class="fa-icon-chevron-down fa-icon-large"></i>
-					</a>
-			</span>
-				
-			
 			</div>	
 		</div><!-- / HERO UNIT-->
 	</div><!-- / HERO WRAP-->
@@ -122,7 +96,7 @@
 				<div class="text-center page-header">
 					<h3 class="">
 						<span class="white"><!-- WHITE SPACE-->
-							WHAT WE ARE <span class="main-color">OFFER</span> 
+							WHO WE ARE
 						</span>	
 					</h3>
 				</div>

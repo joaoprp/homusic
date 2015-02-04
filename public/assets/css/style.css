@@ -293,7 +293,7 @@ PARALLAX EFFECTS...........................1474
 			.navbar-inner.navbar-scroll {
 				border-top: none;
 				/*background:rgba(0, 0, 0, 0.7) url(../img/line_bg.png) top left repeat;*/
-				background: #eb5b23;
+				background: #f05931;
 				padding-bottom:5px;
 				padding-top:5px;
 				-moz-transition: padding 0.5s ease-in-out;
@@ -659,7 +659,7 @@ PARALLAX EFFECTS...........................1474
 	}
 
 	#portfolio-section {
-		background: #eb5b23;
+		background: #f05931;
 	}
 	
 	#contact-section {
@@ -1853,7 +1853,7 @@ PARALLAX EFFECTS...........................1474
 }
 
 .text-orange {
-	color:#eb5b23;
+	color:#f05931;
 }
 
 .team-area .circle {
@@ -1869,7 +1869,7 @@ PARALLAX EFFECTS...........................1474
 }
 
 .team-area .circle:hover {
-	background: #eb5b23;
+	background: #f05931;
 }
 
 .register input {
@@ -1903,7 +1903,7 @@ PARALLAX EFFECTS...........................1474
 .teacher-enclosing span {
 	display: block;
 	font-size: 15px;
-	color: #eb5b23;
+	color: #f05931;
 	text-align: center;
 	margin-top: 155px;
 }

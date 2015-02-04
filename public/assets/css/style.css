@@ -564,7 +564,7 @@ PARALLAX EFFECTS...........................1474
 	
 	}
 
-	#teachers-section {
+	.teachers-section {
 		background: #e2daca;
 	}
 	
@@ -1906,4 +1906,29 @@ PARALLAX EFFECTS...........................1474
 	color: #eb5b23;
 	text-align: center;
 	margin-top: 155px;
+}
+
+.teachers-section div.row {
+	width: 760px;
+	margin: auto;
+}
+
+.teachers-section div.left {
+	width: 240px;
+	margin-right: 20px;
+	float: left;
+}
+
+.teachers-section div.left span {
+	display: block;
+	text-align: center;
+}
+
+.teachers-section div.left span a {
+	margin-right: 20px;
+}
+
+.teachers-section div.right {
+	width: 440px;
+	float: right;
 }

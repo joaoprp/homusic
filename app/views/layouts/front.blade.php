@@ -308,5 +308,7 @@ jQuery('#header-section').bind('inview', function (event, visible) {
 		<script>
 			jQuery('.carousel').carousel()
 		</script>
+
+		@yield('script')
 </body>
 </html>

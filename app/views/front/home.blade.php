@@ -90,8 +90,124 @@ Ho Music Academy
 
 </section> <!--/SLOGAN section-->
 
-<section class="" id="#teachers-section" style="display:none">
+<section class="teachers-section" id="teacher-1" style="display:none">
+		<div class="text-center page-header">
+			<h3>AMY KAO</h3>
+		</div>
 
+		<div class="row">
+			<div class="left">
+				<img src="assets/img/teachers/amy-desc.png" />
+				<span>
+					<a href="#"><img src="assets/img/email.png" /></a>
+					<a href="#"><img src="assets/img/calendar.png" /></a>
+				</span>
+			</div>
+			<div class="right">
+					<p>Amy began studying piano at age 5, and violin at age 7, and has been passionate about both ever since. She graduated from the University of Alberta music program and has experience playing in chamber music groups, as well as the University Symphony Orchestra. She enjoys performing with a variety of acts around Edmonton. Amy also has her grade 10 certificate from the RCM, and has been teaching violin for 6 years.
+					</p>
+			</div>
+		</div>
+</section>
+
+<section class="teachers-section" id="teacher-2" style="display:none">
+		<div class="text-center page-header">
+			<h3>FRANKIE HIDALGO</h3>
+		</div>
+
+		<div class="row">
+			<div class="left">
+				<img src="assets/img/teachers/frankie-desc.png" />
+				<span>
+					<a href="#"><img src="assets/img/email.png" /></a>
+					<a href="#"><img src="assets/img/calendar.png" /></a>
+				</span>
+			</div>
+			<div class="right">
+					<p>Frankie is an accomplished multi instrumentalist with years of experience performing, arranging, composing and directing musical acts around western Canada. He graduated from the Grant MacEwan music program, specializing in piano performance, with a minor in vocal. He has been teaching his expertise to students for over 12 years.
+					</p>
+			</div>
+		</div>
+</section>
+
+<section class="teachers-section" id="teacher-3" style="display:none">
+		<div class="text-center page-header">
+			<h3>FREDDY RUIZ</h3>
+		</div>
+
+		<div class="row">
+			<div class="left">
+				<img src="assets/img/teachers/freddy-desc.png" />
+				<span>
+					<a href="#"><img src="assets/img/email.png" /></a>
+					<a href="#"><img src="assets/img/calendar.png" /></a>
+				</span>
+			</div>
+			<div class="right">
+					<p>Freddy completed his study of music at the University of Sherbrooke in Laval, Montréal. He specializes as a classical guitarist in Latin, flamenco and contemporary music, and has performed as a professional flamenco guitarist for many years in many countries. Freddy has taught musical education in various primary and secondary schools over the past 8 years. 
+					</p>
+			</div>
+		</div>
+</section>
+
+<section class="teachers-section" id="teacher-4" style="display:none">
+		<div class="text-center page-header">
+			<h3>GRAEME MELLWAY</h3>
+		</div>
+
+		<div class="row">
+			<div class="left">
+				<img src="assets/img/teachers/graeme-desc.png" />
+				<span>
+					<a href="#"><img src="assets/img/email.png" /></a>
+					<a href="#"><img src="assets/img/calendar.png" /></a>
+				</span>
+			</div>
+			<div class="right">
+					<p>Graeme graduated from the Grant MacEwan music program, specializing in recording and drum set, and has taught drumming himself since 2001. He has a wide variety of experience in performing and recording with groups ranging from punk rock to hip-hop, and has travelled across Canada performing with indie rock bands and country acts. Also,Graeme been recorded on over a dozen albums.
+					</p>
+			</div>
+		</div>
+</section>
+
+<section class="teachers-section" id="teacher-5" style="display:none">
+		<div class="text-center page-header">
+			<h3>NEOLLA MINIMO</h3>
+		</div>
+
+		<div class="row">
+			<div class="left">
+				<img src="assets/img/teachers/neola-desc.png" />
+				<span>
+					<a href="#"><img src="assets/img/email.png" /></a>
+					<a href="#"><img src="assets/img/calendar.png" /></a>
+				</span>
+			</div>
+			<div class="right">
+					<p>Neolla has been teaching piano for more than six years, with plenty of experience teaching young children solo or in groups. She is currently working towards her ARCT diploma, and also is a student at Grant MacEwan University studying towards a Bachelor of Commerce degree.
+					</p>
+			</div>
+		</div>
+</section>
+
+<section class="teachers-section" id="teacher-6" style="display:none">
+		<div class="text-center page-header">
+			<h3>TAYLER BUTTON</h3>
+		</div>
+
+		<div class="row">
+			<div class="left">
+				<img src="assets/img/teachers/tayler-desc.png" />
+				<span>
+					<a href="#"><img src="assets/img/email.png" /></a>
+					<a href="#"><img src="assets/img/calendar.png" /></a>
+				</span>
+			</div>
+			<div class="right">
+					<p>Tayler has been playing since the age of 10. He has performed in a number of rock groups around both Edmonton and Calgary. He is currently studying at the University of Alberta, working towards an education degree majoring in music studies. Tayler has taught guitar and drums in Edmonton and Whitecourt for 5 years. 
+					</p>
+			</div>
+		</div>
 </section>
 	
 
@@ -109,42 +225,42 @@ Ho Music Academy
 	<div class="container">	
 		<div class="row-fluid team-area">
 		
-			<div class="teacher-enclosing">
+			<div class="teacher-enclosing" id="teacher-icon-1">
 				<div class="span4 circle">
 					<img class="teacher-circle" src="assets/img/teachers/amy.png" />
 					<span class="plus-sign">+</span>
 				</div>
 				<span>AMY KAO</span>
 			</div>
-			<div class="teacher-enclosing">
+			<div class="teacher-enclosing" id="teacher-icon-2">
 				<div class="span4 circle">
 					<img class="teacher-circle" src="assets/img/teachers/frankie.png" />
 					<span class="plus-sign">+</span>
 				</div>
 				<span>FRANKIE HIDALGO</span>
 			</div>
-			<div class="teacher-enclosing">
+			<div class="teacher-enclosing" id="teacher-icon-3">
 				<div class="span4 circle">
 					<img class="teacher-circle" src="assets/img/teachers/freddy.png" />
 					<span class="plus-sign">+</span>
 				</div>
 				<span>FREDDY RUIZ</span>
 			</div>
-			<div class="teacher-enclosing">
+			<div class="teacher-enclosing" id="teacher-icon-4">
 				<div class="span4 circle">
 					<img class="teacher-circle" src="assets/img/teachers/graeme.png" />
 					<span class="plus-sign">+</span>
 				</div>
 				<span>GRAEME MELLWAY</span>
 			</div>
-			<div class="teacher-enclosing">
+			<div class="teacher-enclosing" id="teacher-icon-5">
 				<div class="span4 circle">
 					<img class="teacher-circle" src="assets/img/teachers/neola.png" />
 					<span class="plus-sign">+</span>
 				</div>
-				<span>NEOLA MINIMO</span>
+				<span>NEOLLA MINIMO</span>
 			</div>
-			<div class="teacher-enclosing">
+			<div class="teacher-enclosing" id="teacher-icon-6">
 				<div class="span4 circle">
 					<img class="teacher-circle" src="assets/img/teachers/tayler.png" />
 					<span class="plus-sign">+</span>
@@ -260,4 +376,68 @@ Ho Music Academy
 
 <!-- END: FOOTER -->
 
+@stop
+
+@section('script')
+	<script type="text/javascript">
+		$("#teacher-icon-1").click(function(){
+			$('#teacher-1').slideToggle();
+			$('body').scrollTo('#teacher-1');
+			$('#teacher-2').hide();
+			$('#teacher-3').hide();
+			$('#teacher-4').hide();
+			$('#teacher-5').hide();
+			$('#teacher-6').hide();
+		});
+
+		$("#teacher-icon-2").click(function(){
+			$('#teacher-1').hide();
+			$('#teacher-2').slideToggle();
+			$('body').scrollTo('#teacher-2');
+			$('#teacher-3').hide();
+			$('#teacher-4').hide();
+			$('#teacher-5').hide();
+			$('#teacher-6').hide();
+		});
+
+		$("#teacher-icon-3").click(function(){
+			$('#teacher-1').hide();
+			$('#teacher-2').hide();
+			$('#teacher-3').slideToggle();
+			$('body').scrollTo('#teacher-3');
+			$('#teacher-4').hide();
+			$('#teacher-5').hide();
+			$('#teacher-6').hide();
+		});
+
+		$("#teacher-icon-4").click(function(){
+			$('#teacher-1').hide();
+			$('#teacher-2').hide();
+			$('#teacher-3').hide();
+			$('#teacher-4').slideToggle();
+			$('body').scrollTo('#teacher-4');
+			$('#teacher-5').hide();
+			$('#teacher-6').hide();
+		});
+
+		$("#teacher-icon-5").click(function(){
+			$('#teacher-1').hide();
+			$('#teacher-2').hide();
+			$('#teacher-3').hide();
+			$('#teacher-4').hide();
+			$('#teacher-5').slideToggle();
+			$('body').scrollTo('#teacher-5');
+			$('#teacher-6').hide();
+		});
+
+		$("#teacher-icon-6").click(function(){
+			$('#teacher-1').hide();
+			$('#teacher-2').hide();
+			$('#teacher-3').hide();
+			$('#teacher-4').hide();
+			$('#teacher-5').hide();
+			$('#teacher-6').slideToggle();
+			$('body').scrollTo('#teacher-6');
+		});
+	</script>
 @stop

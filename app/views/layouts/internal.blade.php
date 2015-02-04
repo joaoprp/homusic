@@ -28,35 +28,38 @@
 <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
 <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
 <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
+
+@yield('css')
+
 </head>
 <body data-spy="scroll" data-target=".scroller-spy" data-twttr-rendered="true">
 
 <!--START MAIN-WRAPPER--> 
-<div class="main-wrapper">
+<div class="main-wrapper" style="background:#e2daca;">
 <!--START MAIN-WRAPPER--> 
 
 <!-- TOP SECTION-->
-<section class="headertop needhead" id="header-section">
+<section class="headertop needhead" style="background:#e2daca;padding:0;">
 
  <!-- ################-->
  <!-- START TOP MENU -->
  <!-- ################-->
   <nav class="nav-top">
-    <div class="navbar navbar-static-top" id="topnavbar"> 
+    <div class="navbar navbar-static-top" id="topnavbar" style="background:#f05931!important;"> 
       <!-- navbar-fixed-top -->
-      <div class="navbar-inner" id="navbartop">
+      <div class="navbar-inner" id="navbartop" style="background:#f05931!important;">
         <div class="container"> <a class="pull-left" href="/"> 
 		<img src="assets/img/logo.png" alt="Logo" style="margin-right:30px;height:39px!important" />
 		<!--<img src="assets/img/Logo.png" alt="Logo">--></a>
           <div id="main-nav" class="scroller-spy">
             <nav class="nav-collapse collapse" >
               <ul class="nav" id="nav">
-                <li class="active"><a href="#header-section">Home</a> </li>
-				<li><a href="#features-section">Academy</a> </li>
-				<li><a href="#team-section">Music Lessons</a> </li>
-				<li><a href="/faq">FAQ</a> </li>
-				<li><a href="#price-section">News</a> </li>
-				<li><a href="#contact-section">Contact</a> </li>
+                <li class="active"><a href="/#header-section">Home</a> </li>
+				<li><a href="/#features-section">Academy</a> </li>
+				<li><a href="/#team-section">Music Lessons</a> </li>
+				<li><a href="#">FAQ</a> </li>
+				<li><a href="/#price-section">News</a> </li>
+				<li><a href="/#contact-section">Contact</a> </li>
               </ul>
             </nav>
 			

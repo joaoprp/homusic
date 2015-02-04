@@ -15,3 +15,8 @@ Route::get('/', function()
 {
 	return View::make('front.home');
 });
+
+
+Route::get('faq', function() {
+	return View::make('front.home');
+});

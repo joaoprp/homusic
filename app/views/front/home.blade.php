@@ -89,6 +89,10 @@ Ho Music Academy
 		</div><!-- /row-->
 
 </section> <!--/SLOGAN section-->
+
+<section class="" id="#teachers-section" style="display:none">
+
+</section>
 	
 
 <!-- /TEAM SECTION-->			
@@ -105,29 +109,47 @@ Ho Music Academy
 	<div class="container">	
 		<div class="row-fluid team-area">
 		
-			<div class="span4 circle">
-				
-				<span class="plus-sign">+</span>
+			<div class="teacher-enclosing">
+				<div class="span4 circle">
+					<img class="teacher-circle" src="assets/img/teachers/amy.png" />
+					<span class="plus-sign">+</span>
+				</div>
+				<span>AMY KAO</span>
 			</div>
-			<div class="span4 circle">
-				
-				<span class="plus-sign">+</span>
+			<div class="teacher-enclosing">
+				<div class="span4 circle">
+					<img class="teacher-circle" src="assets/img/teachers/frankie.png" />
+					<span class="plus-sign">+</span>
+				</div>
+				<span>FRANKIE RUIZ</span>
 			</div>
-			<div class="span4 circle">
-				
-				<span class="plus-sign">+</span>
+			<div class="teacher-enclosing">
+				<div class="span4 circle">
+					<img class="teacher-circle" src="assets/img/teachers/freddy.png" />
+					<span class="plus-sign">+</span>
+				</div>
+				<span>FREDDY RUIZ</span>
 			</div>
-			<div class="span4 circle">
-				
-				<span class="plus-sign">+</span>
+			<div class="teacher-enclosing">
+				<div class="span4 circle">
+					<img class="teacher-circle" src="assets/img/teachers/graeme.png" />
+					<span class="plus-sign">+</span>
+				</div>
+				<span>GRAEME MELLWAY</span>
 			</div>
-			<div class="span4 circle">
-				
-				<span class="plus-sign">+</span>
+			<div class="teacher-enclosing">
+				<div class="span4 circle">
+					<img class="teacher-circle" src="assets/img/teachers/neola.png" />
+					<span class="plus-sign">+</span>
+				</div>
+				<span>NEOLA MINIMO</span>
 			</div>
-			<div class="span4 circle">
-				
-				<span class="plus-sign">+</span>
+			<div class="teacher-enclosing">
+				<div class="span4 circle">
+					<img class="teacher-circle" src="assets/img/teachers/tayler.png" />
+					<span class="plus-sign">+</span>
+				</div>
+				<span>TAYLER BUTTON</span>
 			</div>
 
 		</div><!--/ROW FLUID--> 

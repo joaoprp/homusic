@@ -563,6 +563,10 @@ PARALLAX EFFECTS...........................1474
 		
 	
 	}
+
+	#teachers-section {
+		background: #e2daca;
+	}
 	
 	#slogan-section-1 {
 			
@@ -1854,6 +1858,14 @@ PARALLAX EFFECTS...........................1474
 
 .team-area .circle {
 	margin-right: 20px;
+	background: #e2daca;
+	overflow: hidden;
+}
+
+.circle .teacher-circle {
+	width:150px;
+	left:0px;
+	top:0px;
 }
 
 .team-area .circle:hover {
@@ -1879,4 +1891,19 @@ PARALLAX EFFECTS...........................1474
 	padding-left: 20px;
 	padding-top: 10px;
 	font-family: Rockwell;
+}
+
+.teacher-enclosing {
+	width:150px;
+	float:left;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+.teacher-enclosing span {
+	display: block;
+	font-size: 15px;
+	color: #eb5b23;
+	text-align: center;
+	margin-top: 155px;
 }

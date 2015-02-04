@@ -121,7 +121,7 @@ Ho Music Academy
 					<img class="teacher-circle" src="assets/img/teachers/frankie.png" />
 					<span class="plus-sign">+</span>
 				</div>
-				<span>FRANKIE RUIZ</span>
+				<span>FRANKIE HIDALGO</span>
 			</div>
 			<div class="teacher-enclosing">
 				<div class="span4 circle">

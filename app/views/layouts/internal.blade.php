@@ -32,8 +32,8 @@
 @yield('css')
 
 <style type="text/css">
-	nav li a {
-		color:white;
+	.navbar > .nav > li > a {
+		color:white!important;
 	}
 </style>
 

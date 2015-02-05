@@ -31,6 +31,12 @@
 
 @yield('css')
 
+<style type="text/css">
+	nav li a {
+		color:white;
+	}
+</style>
+
 </head>
 <body data-spy="scroll" data-target=".scroller-spy" data-twttr-rendered="true">
 
@@ -54,7 +60,7 @@
           <div id="main-nav" class="scroller-spy">
             <nav class="nav-collapse collapse" >
               <ul class="nav" id="nav">
-                <li class="active"><a href="/#header-section">Home</a> </li>
+                <li><a href="/#header-section">Home</a> </li>
 				<li><a href="/#features-section">Academy</a> </li>
 				<li><a href="group-lessons">Music Lessons</a> </li>
 				<li><a href="faq">FAQ</a> </li>

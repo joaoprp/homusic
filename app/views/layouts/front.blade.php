@@ -53,7 +53,7 @@
               <ul class="nav" id="nav">
                 <li class="active"><a href="#header-section">Home</a> </li>
 				<li><a href="#features-section">Academy</a> </li>
-				<li><a href="#team-section">Music Lessons</a> </li>
+				<li><a href="/group-lessons">Music Lessons</a> </li>
 				<li><a href="/faq">FAQ</a> </li>
 				<li><a href="#price-section">News</a> </li>
 				<li><a href="#contact-section">Contact</a> </li>

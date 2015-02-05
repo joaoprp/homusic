@@ -44,6 +44,9 @@ PARALLAX EFFECTS...........................1474
 		width: 100%;
 		overflow:hidden;
 	}
+	p{
+		font-family: "Open Sans",sans-serif;
+	}
 	/********************* / GLOBAL STYLES ********************/
 	
 	/**********************  THEME COLORS ***********************/
@@ -480,7 +483,7 @@ PARALLAX EFFECTS...........................1474
 		/**************************** TYPOGRAPHY ******************************************/
 		
 		body, html{
-			font-family:  Rockwell,'Roboto', sans-serif;
+			font-family:  'Open Sans','Roboto', sans-serif;
 		}
 		
 		.fa-icon-xxlarlge {
@@ -500,6 +503,7 @@ PARALLAX EFFECTS...........................1474
 			line-height:70px;
 		}
 		h3 {
+			font-family: Rockwell;
 			font-size:250%;
 		}
 		.lead  {
@@ -1774,6 +1778,8 @@ PARALLAX EFFECTS...........................1474
     src: url(/assets/font/rock.ttf);
     font-weight:400;
 }
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
 
 .center {
 	text-align: center;

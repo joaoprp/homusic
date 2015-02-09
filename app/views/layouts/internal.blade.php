@@ -18,6 +18,8 @@
 <link href="assets/js/google-code-prettify/prettify.css" rel="stylesheet">
 <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 
+<link href="assets/css/slider.css" rel="stylesheet" />
+
 <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
 <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -87,6 +89,15 @@
 
 
 	@yield('content')
+
+	<div class="bg-footer">
+		<div>
+			<img src="/assets/img/logo-big.png" />
+		</div>
+	</div>
+	<div class="bg-footer-blue">
+		<p>Copyright &copy; 2014 H&O Music Academy. All rights reserved</p>
+	</div>
 </div>
 <!-- END: MAIN-WRAPPER-->
 <!-- Le javascript
@@ -128,6 +139,8 @@
 <script type="text/javascript" src="assets/js/jquery.gmap.js"></script>
 <!-- gMap PLUGIN -->
 <script src="assets/js/custom.js" type="text/javascript"></script>
+
+<script src="assets/js/bootstrap-slider.js" type="text/javascript"></script>
 
 <script type="text/javascript">
 jQuery(document).ready(function(){
@@ -317,5 +330,8 @@ jQuery('#header-section').bind('inview', function (event, visible) {
 		<script>
 			jQuery('.carousel').carousel()
 		</script>
+
+@yield('script')
+
 </body>
 </html>

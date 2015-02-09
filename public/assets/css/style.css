@@ -1803,6 +1803,10 @@ PARALLAX EFFECTS...........................1474
 	margin-right: 30px;
 }
 
+section.internal .circle {
+	border: 3px solid #f05931;
+}
+
 .circle img {
 	width: 60px;
 	position: relative;
@@ -1817,10 +1821,12 @@ PARALLAX EFFECTS...........................1474
 	font-weight: bold;
 	position:relative;
 	top:25px;
+	font-family: Rockwell;
 }
 
 .circle:hover {
 	background: #2c3442;
+	text-decoration: none;
 }
 
 .circle:hover img {
@@ -1938,4 +1944,131 @@ PARALLAX EFFECTS...........................1474
 .teachers-section div.right {
 	width: 440px;
 	float: right;
+}
+
+.player {
+	width: 300px;
+	height: 140px;
+	float: left;
+	margin-left: 20px;
+}
+
+.player .top {
+	padding:5px;
+	background: #1b2639;
+}
+
+.player .top .toggle-play {
+	width: 45px;
+	height: 45px;
+	border-radius: 45px;
+	background: #f05931;
+	float:left;
+}
+
+.player .top .toggle-play .fa-icon-large {
+	font-size: 150%;
+	float: left;
+	margin-top: 10px;
+	margin-left: 14px;
+	color: white;
+}
+
+.player .bottom .play-toggle.fa-icon-large {
+	font-size: 150%;
+	float: left;
+	margin-top: 10px;
+	margin-left: 14px;
+	color: white;
+	font-weight: normal;
+}
+
+
+.player .top .title {
+	color: white;
+	font-size: 14px;
+	margin-top: 12px;
+	float: left;
+	margin-left: 15px;
+	text-transform: uppercase;	
+}
+
+.player .time-slider {
+	width: 300px;
+}
+
+.player .slider {
+	margin-top: -11px;
+}
+
+.player .slider .slider-track {
+	background: #121926;
+	border-radius: 0;
+	height: 5px!important;
+}
+
+.player .slider .slider-selection {
+	border-radius: 0;
+	height: 5px!important;
+}
+
+.player .slider .slider-handle {
+	background: white;
+	opacity: 1;
+	height: 13px;
+	width: 13px;
+	margin-left: -5px!important;
+}
+
+.player .bottom {
+	background: #1c212a;
+	height: 50px;
+	margin-top: -15px;
+}
+
+.time {
+	float: left;
+	color: #8c8c8c;
+	margin-top: 15px;
+	margin-left: 15px;
+}
+
+.time .current {
+	color:white;
+}
+
+.volume .slider {
+	width: 100px!important;
+	margin-top: 16px;
+	margin-left: 10px;
+}
+
+@media (min-width: 1200px) {
+	.container {
+		width:960px;
+	}
+}
+
+.page-content .sub-container {
+	width: 370px;
+}
+
+.bg-footer {
+	background: #f05931 url('/assets/img/section-side-lines-alt.png') no-repeat center;
+	background-size: 100%;
+	height: 200px;
+}
+
+.bg-footer div {
+	width: 200px;
+	margin: auto;
+}
+
+.bg-footer-blue {
+	background: #252c39;
+}
+
+.bg-footer-blue p {
+	color: white;
+	text-align: center;
 }

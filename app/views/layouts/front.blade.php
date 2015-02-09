@@ -78,6 +78,14 @@
 
 
 	@yield('content')
+	<div class="bg-footer">
+		<div>
+			<img src="/assets/img/logo-big.png" />
+		</div>
+	</div>
+	<div class="bg-footer-blue">
+		<p>Copyright &copy; 2014 H&O Music Academy. All rights reserved</p>
+	</div>
 </div>
 <!-- END: MAIN-WRAPPER-->
 <!-- Le javascript

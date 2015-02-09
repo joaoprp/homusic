@@ -66,23 +66,23 @@ Ho Music Academy
 			<div class="container">
 				<div class="row-fluid sub-container">
 
-					<div class="span4 circle">
+					<a href="/videos" class="span4 circle">
 						<div>VIDEOS</div>
 						<img src="assets/img/icon-video.png" />
 						<span class="plus-sign">+</span>
-					</div>
+					</a>
 
-					<div class="span4 circle">
+					<a href="/audios" class="span4 circle">
 						<div>MUSIC</div>
 						<img src="assets/img/icon-music.png" />
 						<span class="plus-sign">+</span>
-					</div>
+					</a>
 
-					<div class="span4 circle">
+					<a href="/gallery" class="span4 circle">
 						<div>GALLERY</div>
 						<img src="assets/img/icon-camera.png" />
 						<span class="plus-sign">+</span>
-					</div>
+					</a>
 				</div>
 				
 			</div><!-- /container-->

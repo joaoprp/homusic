@@ -56,7 +56,7 @@ Schedules | Ho Music Academy
 		}
 
 		.schedule-table {
-			width: 60%;
+			width: 100%;
 			margin: auto;
 			margin-bottom: 40px;
 		}

@@ -1151,7 +1151,7 @@ jQuery('#header-section').bind('inview', function (event, visible) {
 		
 				jQuery(document).ready(function(){
 
-				jQuery('#map').gMap({ address: 'Folsom Ave, San Francisco, CA',
+				jQuery('#map').gMap({ address: '10626 51 Ave, Edmonton, AB',
 							   panControl: true,
 						   zoomControl: true,
 							   zoomControlOptions: {

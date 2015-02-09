@@ -2115,6 +2115,10 @@ section.internal .circle {
 	margin-top: 5px;
 }
 
+.navbar-static-top .social {
+	border: 2px solid #f05931;
+}
+
 .social li {
 	float:left;
 }

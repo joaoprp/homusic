@@ -1876,7 +1876,7 @@ section.internal .circle {
 }
 
 .sub-container {
-	width: 580px;
+	width: 510px;
 	margin:auto;
 }
 
@@ -2073,6 +2073,10 @@ section.internal .circle {
 	margin-left: 10px;
 }
 
+#team-section .container {
+	width: 570px;
+}
+
 @media (min-width: 1200px) {
 	.container {
 		width:960px;
@@ -2083,18 +2087,38 @@ section.internal .circle {
 	}
 }
 
+@media (max-width: 767px) {
+	.teacher-enclosing span {
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+
+	.circle {
+		float: left!important;
+	}
+}
+
 .page-content .sub-container {
 	width: 370px;
 }
 
+.sub-container .circle {
+	margin-left: 10px!important;
+	margin-right: 10px!important;
+}
+
 .bg-footer {
 	background: #f05931 url('/assets/img/section-side-lines-alt.png') no-repeat center;
-	background-size: 100%;
-	height: 200px;
+	background-size: 100% 50%;
+	height: 100px;
+}
+
+.bg-footer img {
+	height: 100px;
 }
 
 .bg-footer div {
-	width: 200px;
+	width: 100px;
 	margin: auto;
 }
 
@@ -2146,4 +2170,9 @@ section.internal .circle {
 
 .social li a:hover {
 	text-decoration: none;
+}
+
+#portfolio-section .container .row .circle {
+	margin-left: 20px!important;
+	margin-right: 20px!important;
 }

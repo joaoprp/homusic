@@ -300,7 +300,7 @@ H&O Music Academy
 
 	<div class="container">
 		
-		<div class="row" style="width:460px;margin:auto">
+		<div class="row" style="width:392px;margin:auto">
 			<a href="/group-lessons" class="span4 circle">
 				<img class="lessons-circle" src="/assets/img/private-lessons.png" />
 				<span class="plus-sign">+</span>
@@ -325,14 +325,14 @@ H&O Music Academy
 			<h3>REGISTER</h3>
 		</div>
 	</div><!-- /row-fluid-->
-	<div class="row-fluid" style="width:680px;margin:auto">
+	<div class="row-fluid" style="width:340px;margin:auto">
 		<form>
 			<div class="register" style="width:340px;float:left">
 				<input type="text" placeholder="your name*" />
 				<input type="text" placeholder="your email*" />
 				<input type="text" placeholder="your phone number*" />
 			</div>
-			<textarea class="front-register" placeholder="your message"></textarea>
+			<!-- <textarea class="front-register" placeholder="your message"></textarea> -->
 
 		</form>
 	</div>

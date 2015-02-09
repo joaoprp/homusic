@@ -71,8 +71,8 @@
               </ul>
 
               <ul class="social" style="border-color:white!important;">
-		      	<li><a href="#"><i class="fa-icon-facebook"></i></a></li>
-		      	<li><a href="#"><i class="fa-icon-twitter"></i></a></li>
+		      	<li><a href="https://www.facebook.com/homusicacademy" target="_blank"><i class="fa-icon-facebook"></i></a></li>
+		      	<li><a href="https://twitter.com/HOMusicAcademy" target="_blank"><i class="fa-icon-twitter"></i></a></li>
 		    </ul>
             </nav>
 			
@@ -104,8 +104,8 @@
 		<div>
 			<span>Copyright &copy; 2014 H&O Music Academy. All rights reserved</span>
 			<ul class="social">
-		      	<li><a href="#"><i class="fa-icon-facebook"></i></a></li>
-		      	<li><a href="#"><i class="fa-icon-twitter"></i></a></li>
+		      	<li><a href="https://www.facebook.com/homusicacademy" target="_blank"><i class="fa-icon-facebook"></i></a></li>
+		      	<li><a href="https://twitter.com/HOMusicAcademy" target="_blank"><i class="fa-icon-twitter"></i></a></li>
 		    </ul>
 		</div>
 		<div style="clear:both"></div>

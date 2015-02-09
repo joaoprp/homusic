@@ -367,8 +367,23 @@ Ho Music Academy
 	
 	</section>
 	<section id="map-section">
+		<div class="address-data" style="position:relative;z-index:1;left:20%;top:30px;height:800px;width:300px;">
+			<div class="text-center page-header blue dark-blue" style="margin:auto">
+				<h4 class="text-orange" style="width:70%;background-size:100%;display:inline-block">CONTACT US</h4>
+			</div>
+			<div style="background:#f05931;padding:30px;">
+					<h4 class="text-white text-center">10627 51 Ave</h4>
+					<h4 class="text-white text-center">Edmonton, AB,</h4>
+					<h4 class="text-white text-center">T6H 0K8</h4>
+				
+				<hr style="border-top:1px solid #c22f12" />
+					<h4 class="text-white text-center">Phone: (780) 989 0701</h4>
+					<h4 class="text-white text-center">Fax: (780) 989 0702</h4>
+				
+			</div>
+		</div>
 		<!-- MAP DIV // !Don't remove this !Important -->
-			<div id="map"></div>
+			<div id="map" style="margin-top:-800px"></div>
 	
 	<!-- MAP DIV // !Don't remove this !Important -->
 	</section>

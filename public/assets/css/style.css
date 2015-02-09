@@ -491,7 +491,7 @@ PARALLAX EFFECTS...........................1474
 		}
 		
 		h1, h2, h3, h4, h5, h6 {
-			/*font-weight:100;*/
+			font-weight:normal;
 			font-family: Rockwell, times;
 		}
 		
@@ -699,7 +699,7 @@ PARALLAX EFFECTS...........................1474
 		
 		bottom:0px;
 		padding:0px;
-		height:250px;
+		height:350px;
 		width:100%;
 		z-index:0;
 	
@@ -1154,7 +1154,7 @@ PARALLAX EFFECTS...........................1474
 			
 		#map{
 			display: block;
-			height: 250px;
+			height: 350px;
 			width: 100%;
 			min-width: 100%;
 			max-width:1350px;

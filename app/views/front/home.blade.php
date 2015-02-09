@@ -331,6 +331,8 @@ H&O Music Academy
 				<input type="text" placeholder="your name*" />
 				<input type="text" placeholder="your email*" />
 				<input type="text" placeholder="your phone number*" />
+
+				<input class="button" type="submit" value="SUBMIT" />
 			</div>
 			<!-- <textarea class="front-register" placeholder="your message"></textarea> -->
 

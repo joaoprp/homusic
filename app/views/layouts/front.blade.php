@@ -58,6 +58,10 @@
 				<li><a href="#price-section">News</a> </li>
 				<li><a href="#contact-section">Contact</a> </li>
               </ul>
+              <ul class="social">
+              	<li><a href="#"><i class="fa-icon-facebook"></i></a></li>
+              	<li><a href="#"><i class="fa-icon-twitter"></i></a></li>
+              </ul>
             </nav>
 			
 			

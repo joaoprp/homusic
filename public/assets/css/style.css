@@ -32,6 +32,7 @@ PARALLAX EFFECTS...........................1474
 	body{
 		background: url(../img/png.png) repeat;
 		font-size:13px;
+		-webkit-font-smoothing: antialiased;
 	}
 	.main-wrapper
 	{
@@ -1947,6 +1948,7 @@ section.internal .circle {
 	color: #f05931;
 	text-align: center;
 	margin-top: 155px;
+	font-family: Rockwell, times;
 }
 
 .teachers-section div.row {
@@ -2103,4 +2105,26 @@ section.internal .circle {
 .bg-footer-blue p {
 	color: white;
 	text-align: center;
+}
+
+.social {
+	list-style: none;
+	border: 2px solid white;
+	float: left;
+	border-radius: 20px;
+	margin-top: 5px;
+}
+
+.social li {
+	float:left;
+}
+
+.social li a {
+	color: white;
+	padding: 10px 5px;
+	font-size: 15px;
+}
+
+.social li a:hover {
+	text-decoration: none;
 }

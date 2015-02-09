@@ -69,6 +69,11 @@
 				<li><a href="/#price-section">News</a> </li>
 				<li><a href="/#contact-section">Contact</a> </li>
               </ul>
+
+              <ul class="social" style="border-color:white!important;">
+		      	<li><a href="#"><i class="fa-icon-facebook"></i></a></li>
+		      	<li><a href="#"><i class="fa-icon-twitter"></i></a></li>
+		    </ul>
             </nav>
 			
 			
@@ -96,7 +101,14 @@
 		</div>
 	</div>
 	<div class="bg-footer-blue">
-		<p>Copyright &copy; 2014 H&O Music Academy. All rights reserved</p>
+		<div>
+			<span>Copyright &copy; 2014 H&O Music Academy. All rights reserved</span>
+			<ul class="social">
+		      	<li><a href="#"><i class="fa-icon-facebook"></i></a></li>
+		      	<li><a href="#"><i class="fa-icon-twitter"></i></a></li>
+		    </ul>
+		</div>
+		<div style="clear:both"></div>
 	</div>
 </div>
 <!-- END: MAIN-WRAPPER-->
@@ -272,13 +284,6 @@ jQuery('#header-section').bind('inview', function (event, visible) {
         // Basic FitVids Test
 			$(".container").fitVids();  
 		</script>
-		
-		<script type="text/javascript">
-		
-
-
-
-</script>
 
 <script type="text/javascript">
 		jQuery(function(){

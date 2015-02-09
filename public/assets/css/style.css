@@ -2102,17 +2102,30 @@ section.internal .circle {
 	background: #252c39;
 }
 
-.bg-footer-blue p {
+.bg-footer-blue div {
+	width: 480px;
+	margin:auto;
+}
+
+.bg-footer-blue span {
 	color: white;
 	text-align: center;
+	float:left;
+	margin-top: 17px;
+}
+
+.bg-footer-blue .social {
+	margin-top: 7px;
+	border-color: #f05931;
 }
 
 .social {
 	list-style: none;
 	border: 2px solid white;
 	float: left;
-	border-radius: 20px;
+	border-radius: 15px;
 	margin-top: 5px;
+	padding: 5px;
 }
 
 .navbar-static-top .social {

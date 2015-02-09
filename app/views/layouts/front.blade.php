@@ -88,7 +88,14 @@
 		</div>
 	</div>
 	<div class="bg-footer-blue">
-		<p>Copyright &copy; 2014 H&O Music Academy. All rights reserved</p>
+		<div>
+			<span>Copyright &copy; 2014 H&O Music Academy. All rights reserved</span>
+			<ul class="social">
+		      	<li><a href="#"><i class="fa-icon-facebook"></i></a></li>
+		      	<li><a href="#"><i class="fa-icon-twitter"></i></a></li>
+		    </ul>
+		</div>
+		<div style="clear:both"></div>
 	</div>
 </div>
 <!-- END: MAIN-WRAPPER-->

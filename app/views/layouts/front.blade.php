@@ -286,16 +286,16 @@ jQuery('#header-section').bind('inview', function (event, visible) {
 						   overviewMapControl: true,
 							   scrollwheel: true,
 							   icon: {
-						image: "http://www.google.com/mapfiles/marker.png",
+						image: "/assets/img/map-pin.png",
 						shadow: "http://www.google.com/mapfiles/shadow50.png",
-						iconsize: [20, 34],
+						iconsize: [140, 100],
 						shadowsize: [37, 34],
-						iconanchor: [9, 34],
+						iconanchor: [140, 100],
 						shadowanchor: [19, 34]
 					},
 						zoom:15,
 							   markers: [
-							{ 'address' : 'Folsom Ave, San Francisco, CA'}
+							{ 'address' : '10626 51 Ave, Edmonton, AB'}
 						]
 							   
 							   

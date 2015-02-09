@@ -1,7 +1,7 @@
 @extends('layouts.internal')
 
 @section('title')
-FAQ | Ho Music Academy
+{{ $post->title }} | H&O Music Academy
 @endsection
 
 @section('content')

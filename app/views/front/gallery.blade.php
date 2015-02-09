@@ -1,7 +1,7 @@
 @extends('layouts.internal')
 
 @section('title')
-Gallery | Ho Music Academy
+Gallery | H&O Music Academy
 @endsection
 
 @section('content')
@@ -51,7 +51,7 @@ Gallery | Ho Music Academy
 			</div>
 
 			<div style="clear:both"></div>
-			
+
 			<br />
 			<br />
 			<br />

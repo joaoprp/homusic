@@ -1,4 +1,4 @@
-## HO Music Academy
+## H&O Music Academy
 
 ### January 27
 

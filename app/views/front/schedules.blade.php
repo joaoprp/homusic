@@ -1,7 +1,7 @@
 @extends('layouts.internal')
 
 @section('title')
-Schedules | Ho Music Academy
+Schedules | H&O Music Academy
 @endsection
 
 @section('content')

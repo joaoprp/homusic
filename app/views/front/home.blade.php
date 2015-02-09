@@ -1,7 +1,7 @@
 @extends('layouts.front')
 
 @section('title')
-Ho Music Academy
+H&O Music Academy
 @stop
 
 @section('header_content')

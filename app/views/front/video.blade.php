@@ -1,7 +1,7 @@
 @extends('layouts.internal')
 
 @section('title')
-Video | Ho Music Academy
+Video | H&O Music Academy
 @endsection
 
 @section('content')

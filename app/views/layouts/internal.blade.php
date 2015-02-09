@@ -266,7 +266,7 @@ jQuery('#header-section').bind('inview', function (event, visible) {
 		var navbar = jQuery('#navbartop');
 		var navbartop = jQuery('#topnavbar');
 			jQuery(window).scroll(function () {
-				if (jQuery(this).scrollTop() > 640) {
+				if (jQuery(this).scrollTop() > 70) {
 				
 					navbar.addClass("navbar-scroll");
 					navbartop.removeClass("navbar-static-top");

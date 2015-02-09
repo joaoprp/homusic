@@ -515,6 +515,23 @@ PARALLAX EFFECTS...........................1474
 		
 		.page-header h1, .page-header h2, .page-header h3, .page-header h4, .page-header h5, .page-header h6{
 			background: url(../img/header-line.png)no-repeat center bottom;
+			font-weight: normal;
+			padding-bottom: 10px;
+			display:block;
+			
+		}
+
+		.page-header.blue h1, .page-header.blue h2, .page-header.blue h3, .page-header.blue h4, .page-header.blue h5, .page-header.blue h6{
+			background: url(../img/header-line-white.png)no-repeat center bottom;
+			font-weight: normal;
+			padding-bottom: 10px;
+			display:block;
+			
+		}
+
+		.page-header.orange h1, .page-header.orange h2, .page-header.orange h3, .page-header.orange h4, .page-header.orange h5, .page-header.orange h6{
+			background: url(../img/header-line-blue.png)no-repeat center bottom;
+			font-weight: normal;
 			padding-bottom: 10px;
 			display:block;
 			
@@ -534,7 +551,7 @@ PARALLAX EFFECTS...........................1474
 		}
 		
 		.page-header{
-			border-bottom: 1px dotted rgba(250, 250, 250, 0.4)
+			border-bottom: none;
 		}
 		
 	
@@ -668,11 +685,12 @@ PARALLAX EFFECTS...........................1474
 	}
 	
 	#contact-section {
-		background: #241811 /*url(../img/png.png) top left repeat;*/;
+		background: #1b2639 /*url(../img/png.png) top left repeat;*/;
 		z-index:10;
 		color:#fff;	
 		
 	}
+
 	#contact-section .white{
 		background: #241811;
 	}
@@ -1869,6 +1887,10 @@ section.internal .circle {
 	color:#f05931;
 }
 
+.text-white {
+	color: #e2daca;
+}
+
 .team-area .circle {
 	margin-right: 20px;
 	background: #e2daca;
@@ -1879,6 +1901,12 @@ section.internal .circle {
 	width:150px;
 	left:0px;
 	top:0px;
+}
+
+.circle .lessons-circle {
+	width:100px;
+	left:25px;
+	top:25px;
 }
 
 .team-area .circle:hover {

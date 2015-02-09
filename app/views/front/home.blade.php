@@ -216,7 +216,7 @@ Ho Music Academy
 		<!-- TEAM HEADER-->
 	<div class="container dark-blue">
 		<div class="row">
-			<div class="text-center page-header">
+			<div class="text-center page-header blue">
 				<h3 class="text-orange">THE TEAM</h3>
 			</div>
 		</div>
@@ -291,8 +291,8 @@ Ho Music Academy
 <section id="portfolio-section">
 	<div class="container">
 		<div class="row">
-			<div class="text-center page-header">
-				<h3>MUSIC LESSONS</h3>
+			<div class="text-center page-header orange">
+				<h3 class="text-white">MUSIC LESSONS</h3>
 			</div>
 
 		</div><!--/ROW-->
@@ -301,15 +301,15 @@ Ho Music Academy
 	<div class="container">
 		
 		<div class="row" style="width:460px;margin:auto">
-			<div class="span4 circle">
-				
+			<a href="/group-lessons" class="span4 circle">
+				<img class="lessons-circle" src="/assets/img/private-lessons.png" />
 				<span class="plus-sign">+</span>
-			</div>
+			</a>
 
-			<div class="span4 circle">
-				
+			<a href="/group-lessons" class="span4 circle">
+				<img class="lessons-circle" src="/assets/img/group-lessons.png" />
 				<span class="plus-sign">+</span>
-			</div>
+			</a>
 		  
 		</div>
 	
@@ -349,7 +349,7 @@ Ho Music Academy
    <!-- CONTAC HEADER-->
    <div class="text-center">
 	<div id="">
-		<div class="span12 text-center page-header">
+		<div class="span12 text-center page-header blue">
 				
 					<h3 class="text-orange">
 						NEWS

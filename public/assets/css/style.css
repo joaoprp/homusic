@@ -2187,6 +2187,44 @@ section.internal .circle {
 	border-radius: 19px!important;
 }
 
+.button span.caret {
+	margin-top: 10px;
+}
+
+.filter .button {
+	font-style: italic;
+}
+
+.filter .dropdown-menu {
+	background: #2a3c5c url('/assets/img/caret-bg.png') no-repeat top center;
+	padding: 15px;
+	top: 94%;
+}
+
+.filter .dropdown-menu li {
+	text-align: center;
+	border-bottom: 1px solid #1b2639;
+	border-top: 1px solid #677080;
+	padding:10px;
+	cursor: pointer;
+	text-transform: uppercase;
+	font-family: Rockwell, times;
+}
+
+.filter .dropdown-menu li:hover, .filter .dropdown-menu li.active {
+	color:#f05931;
+}
+
+.filter .dropdown-menu li.first {
+	border-top: none;
+	padding-top: 5px
+}
+
+.filter .dropdown-menu li.last {
+	border-bottom: none;
+	padding-bottom: 5px;
+}
+
 .button:hover {
 	background: #f05931!important;
 	border:2px solid #f05931;
@@ -2195,4 +2233,51 @@ section.internal .circle {
 
 .register .button {
 	margin-left: 103px;
+}
+
+a.button {
+	text-decoration: none;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.weekdays {
+	list-style: none;
+	float:left;
+	width: 500px!important;
+}
+
+.weekdays:before {
+	float: left;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 5px;
+	font-size: 18px;
+}
+
+.weekdays li {
+	float: left;
+	font-size: 18px;
+	font-family: Rockwell, times;
+	margin-right:20px; 
+}
+
+.weekdays li a {
+	color: #555;
+	padding: 0;
+	border: none!important;
+}
+
+.weekdays li.active a, .weekdays li a:hover, .weekdays li.active a:hover {
+	background: none!important;
+	border: none!important;
+	border-bottom: 6px solid #f05931!important;
+}
+
+.schedule-table tbody td div {
+	width: 90px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	margin: auto;
 }

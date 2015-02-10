@@ -47,6 +47,12 @@ H&O Music Academy
 				<p>Our instructors are qualified with many years of teaching experience.  
 				And most of all, they know how to make lessons fun and exciting so 
 				you get the best out of your music education.</p>
+
+				<span class="scroller-spy">
+				<span class="nav" id="nav">
+					<a class="button" href="#map-section">Feel free to visit our Academy in Person</a>
+				</span>
+				</span>
 			</div>
 
 		

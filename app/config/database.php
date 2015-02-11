@@ -55,9 +55,9 @@ return array(
 		'mysql' => array(
 			'driver'    => 'mysql',
 			'host'      => 'localhost',
-			'database'  => 'freela',
-			'username'  => 'root',
-			'password'  => 'root',
+			'database'  => 'homusic_db',
+			'username'  => 'homusic',
+			'password'  => '9#wH!~seF^v6',
 			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',
 			'prefix'    => '',

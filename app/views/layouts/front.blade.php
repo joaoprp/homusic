@@ -151,7 +151,7 @@
 	            	</ul>
 				</li>
 				<li><a href="/faq">FAQ</a> </li>
-				<li><a href="#price-section">News</a> </li>
+				<li><a href="/articles">News</a> </li>
 				<li><a href="#contact-section">Contact</a> </li>
               </ul>
               <div style="float:left;position:relative">

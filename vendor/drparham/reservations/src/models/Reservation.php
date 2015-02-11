@@ -6,6 +6,6 @@ Class Reservation extends Eloquent {
 
 	protected $dates = ['deleted_at'];
 
-	protected $fillable = array('user_id', 'reserved');
+	protected $fillable = array('user_id', 'reserved', 'name', 'time');
 
 }

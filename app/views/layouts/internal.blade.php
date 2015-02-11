@@ -7,29 +7,29 @@
 <meta name="description" content="">
 <meta name="author" content="">
 <!-- Le styles -->
-<link href="assets/css/bootstrap.css" rel="stylesheet">
-<link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
-<link href="assets/css/pricing.css" rel="stylesheet">
+<link href="/assets/css/bootstrap.css" rel="stylesheet">
+<link href="/assets/css/bootstrap-responsive.css" rel="stylesheet">
+<link href="/assets/css/pricing.css" rel="stylesheet">
 <!-- !important THIS STYLE CSS ON BOTTOM OF STYLEs LIST-->
-<link href="assets/css/style.css" rel="stylesheet">
+<link href="/assets/css/style.css" rel="stylesheet">
 <!-- !important THIS STYLE CSS ON BOTTOM OF STYLEs LIST-->
-<link href="assets/css/font-awesome.min.css" rel="stylesheet"> 
-<link href="assets/css/prettyPhoto.css" rel="stylesheet" type="text/css" />
-<link href="assets/js/google-code-prettify/prettify.css" rel="stylesheet">
+<link href="/assets/css/font-awesome.min.css" rel="stylesheet"> 
+<link href="/assets/css/prettyPhoto.css" rel="stylesheet" type="text/css" />
+<link href="/assets/js/google-code-prettify/prettify.css" rel="stylesheet">
 <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 
-<link href="assets/css/slider.css" rel="stylesheet" />
+<link href="/assets/css/slider.css" rel="stylesheet" />
 
 <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
 <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 <!-- Le fav and touch icons -->
-<link rel="shortcut icon" href="assets/ico/favicon.ico">
-<link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
-<link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
-<link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
-<link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
+<link rel="shortcut icon" href="/assets/ico/favicon.ico">
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/ico/apple-touch-icon-144-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/assets/ico/apple-touch-icon-114-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/assets/ico/apple-touch-icon-72-precomposed.png">
+<link rel="apple-touch-icon-precomposed" href="/assets/ico/apple-touch-icon-57-precomposed.png">
 
 @yield('css')
 
@@ -57,8 +57,8 @@
       <!-- navbar-fixed-top -->
       <div class="navbar-inner" id="navbartop" style="background:#f05931!important;">
         <div class="container"> <a class="pull-left" href="/"> 
-		<img src="assets/img/logo.png" alt="Logo" style="margin-right:30px;height:39px!important" />
-		<!--<img src="assets/img/Logo.png" alt="Logo">--></a>
+		<img src="/assets/img/logo.png" alt="Logo" style="margin-right:30px;height:39px!important" />
+		<!--<img src="/assets/img/Logo.png" alt="Logo">--></a>
           <div id="main-nav" class="scroller-spy">
             <nav class="nav-collapse collapse" >
               <ul class="nav" id="nav">
@@ -116,43 +116,43 @@
     ================================================== --> 
 <!-- Placed at the end of the document so the pages load faster --> 
 
-<script src="assets/js/jquery.js" type="text/javascript"></script> 
-<script src="assets/js/google-code-prettify/prettify.js" type="text/javascript"></script> 
-<script src="assets/js/bootstrap-transition.js" type="text/javascript"></script> 
-<script src="assets/js/bootstrap-alert.js" type="text/javascript"></script> 
-<script src="assets/js/bootstrap-modal.js" type="text/javascript"></script> 
-<script src="assets/js/bootstrap-dropdown.js" type="text/javascript"></script> 
-<script src="assets/js/bootstrap-scrollspy.js" type="text/javascript"></script> 
-<script src="assets/js/bootstrap-tab.js" type="text/javascript"></script> 
-<script src="assets/js/bootstrap-tooltip.js" type="text/javascript"></script> 
-<script src="assets/js/bootstrap-popover.js" type="text/javascript"></script> 
-<script src="assets/js/bootstrap-button.js" type="text/javascript"></script> 
-<script src="assets/js/bootstrap-collapse.js" type="text/javascript"></script> 
-<script src="assets/js/bootstrap-carousel.js" type="text/javascript"></script> 
-<script src="assets/js/bootstrap-typeahead.js" type="text/javascript"></script> 
-<script src="assets/js/bootstrap-affix.js" type="text/javascript"></script> 
-<script src="assets/js/application.js" type="text/javascript"></script> 
+<script src="/assets/js/jquery.js" type="text/javascript"></script> 
+<script src="/assets/js/google-code-prettify/prettify.js" type="text/javascript"></script> 
+<script src="/assets/js/bootstrap-transition.js" type="text/javascript"></script> 
+<script src="/assets/js/bootstrap-alert.js" type="text/javascript"></script> 
+<script src="/assets/js/bootstrap-modal.js" type="text/javascript"></script> 
+<script src="/assets/js/bootstrap-dropdown.js" type="text/javascript"></script> 
+<script src="/assets/js/bootstrap-scrollspy.js" type="text/javascript"></script> 
+<script src="/assets/js/bootstrap-tab.js" type="text/javascript"></script> 
+<script src="/assets/js/bootstrap-tooltip.js" type="text/javascript"></script> 
+<script src="/assets/js/bootstrap-popover.js" type="text/javascript"></script> 
+<script src="/assets/js/bootstrap-button.js" type="text/javascript"></script> 
+<script src="/assets/js/bootstrap-collapse.js" type="text/javascript"></script> 
+<script src="/assets/js/bootstrap-carousel.js" type="text/javascript"></script> 
+<script src="/assets/js/bootstrap-typeahead.js" type="text/javascript"></script> 
+<script src="/assets/js/bootstrap-affix.js" type="text/javascript"></script> 
+<script src="/assets/js/application.js" type="text/javascript"></script> 
 
-<script src="assets/js/jquery.prettyPhoto.js" type="text/javascript"></script>
-<script src="assets/js/tweetable.jquery.js" type="text/javascript"></script>
-<script src="assets/js/jquery.timeago.js" type="text/javascript"></script>
+<script src="/assets/js/jquery.prettyPhoto.js" type="text/javascript"></script>
+<script src="/assets/js/tweetable.jquery.js" type="text/javascript"></script>
+<script src="/assets/js/jquery.timeago.js" type="text/javascript"></script>
 
-<script src="assets/js/jquery.fitvids.min.js" type="text/javascript"></script>
+<script src="/assets/js/jquery.fitvids.min.js" type="text/javascript"></script>
 
 <!-- PARALLAX PLUGIN -->
-<script type="text/javascript" src="assets/js/jquery.localscroll-1.2.7-min.js"></script>
-<script type="text/javascript" src="assets/js/jquery.inview.js"></script>
-<script type="text/javascript" src="assets/js/jquery.scrollTo-1.4.2-min.js"></script>
-<script type="text/javascript" src="assets/js/jquery.parallax-1.1.3.js"></script>
+<script type="text/javascript" src="/assets/js/jquery.localscroll-1.2.7-min.js"></script>
+<script type="text/javascript" src="/assets/js/jquery.inview.js"></script>
+<script type="text/javascript" src="/assets/js/jquery.scrollTo-1.4.2-min.js"></script>
+<script type="text/javascript" src="/assets/js/jquery.parallax-1.1.3.js"></script>
 <!-- PARALLAX PLUGIN -->
 
 <!-- gMap PLUGIN -->
 <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
-<script type="text/javascript" src="assets/js/jquery.gmap.js"></script>
+<script type="text/javascript" src="/assets/js/jquery.gmap.js"></script>
 <!-- gMap PLUGIN -->
-<script src="assets/js/custom.js" type="text/javascript"></script>
+<script src="/assets/js/custom.js" type="text/javascript"></script>
 
-<script src="assets/js/bootstrap-slider.js" type="text/javascript"></script>
+<script src="/assets/js/bootstrap-slider.js" type="text/javascript"></script>
 
 <script type="text/javascript">
 jQuery(document).ready(function(){

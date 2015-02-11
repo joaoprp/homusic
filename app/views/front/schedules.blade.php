@@ -15,13 +15,13 @@ Schedules | H&O Music Academy
 
 		<div class="container">
 			<ul class="weekdays fa-icon-calendar nav nav-tabs">
-				<li class="active"><a href="#Monday" aria-controls="Monday" role="tab" data-toggle="tab">Mon</a></li>
-				<li><a href="#Tuesday" aria-controls="Tuesday" role="tab" data-toggle="tab">Tue</a></li>
-				<li><a href="#Wednesday" aria-controls="Wednesday" role="tab" data-toggle="tab">Wed</a></li>
-				<li><a href="#Thursday" aria-controls="Thursday" role="tab" data-toggle="tab">Thu</a></li>
-				<li><a href="#Friday" aria-controls="Friday" role="tab" data-toggle="tab">Fri</a></li>
-				<li><a href="#Saturday" aria-controls="Saturday" role="tab" data-toggle="tab">Sat</a></li>
-				<li><a href="#Sunday" aria-controls="Sunday" role="tab" data-toggle="tab">Sun</a></li>
+				<li weekday=0><a href="#Monday" aria-controls="Monday" role="tab" data-toggle="tab">Mon</a></li>
+				<li weekday=1><a href="#Tuesday" aria-controls="Tuesday" role="tab" data-toggle="tab">Tue</a></li>
+				<li weekday=2><a href="#Wednesday" aria-controls="Wednesday" role="tab" data-toggle="tab">Wed</a></li>
+				<li weekday=3><a href="#Thursday" aria-controls="Thursday" role="tab" data-toggle="tab">Thu</a></li>
+				<li weekday=4><a href="#Friday" aria-controls="Friday" role="tab" data-toggle="tab">Fri</a></li>
+				<li weekday=5><a href="#Saturday" aria-controls="Saturday" role="tab" data-toggle="tab">Sat</a></li>
+				<li weekday=6><a href="#Sunday" aria-controls="Sunday" role="tab" data-toggle="tab">Sun</a></li>
 			</ul>
 
 			<div class="btn-group filter">
@@ -39,7 +39,7 @@ Schedules | H&O Music Academy
 
 			<div class="tab-content">
 			@foreach($weekdays as $weekday)
-				<div role="tabpanel" class="tab-pane {{ $weekday == 'Monday' ? 'active' : '' }}" id="{{ $weekday }}">
+				<div role="tabpanel" class="tab-pane {{ $weekday == date('l') ? 'active' : '' }}" id="{{ $weekday }}">
 				<table class="table schedule-table">
 				<thead>
 					<tr>
@@ -61,7 +61,22 @@ Schedules | H&O Music Academy
 								foreach ($schedules as $schedule) {
 									if ($teacher['id'] == $schedule['teacher_id'] && $weekday == $schedule['weekday']) {
 										if ($hour->format('H:i:s') >= $schedule['hour_start'] && $hour->format('H:i:s') <= $schedule['hour_finish']) {
-											$line .= "<div>".$schedule['instruments']."</div>";
+											$book = true;
+											foreach ($reservations as $reservation) {
+												if ($reservation['name'] == $teacher['id'] && $reservation['time'] == $hour->format('H:i:s') && date('l',strtotime($reservation['reserved'])) == $weekday) {
+													$line .= "<div>".$schedule['instruments']."</div>";
+													$book = false;
+												}
+											}
+
+											if ($book) {
+												if (date('N') < date('N',strtotime($weekday))) {
+													$timestamp = strtotime('next '.$weekday, strtotime('yesterday'));
+													$line .= "<div>".$schedule['instruments']."</div><a href='/book/".$teacher['id']."/".$hour->format('His')."/".$timestamp."'>BOOK NOW!</a>";
+												} else {
+													$line .= "<div>".$schedule['instruments']."</div>";
+												}
+											}
 										}
 									}
 								}
@@ -121,6 +136,8 @@ Schedules | H&O Music Academy
 
 @section('script')
 	<script type="text/javascript">
+		var d = new Date();
+
 		$('.filter .dropdown-menu li').on('click',function(){
 			$.each($('.filter .dropdown-menu li'),function(){
 				$(this).removeClass('active');
@@ -137,5 +154,7 @@ Schedules | H&O Music Academy
 				
 			});
 		});
+
+		$('.weekdays').find('li[weekday='+((d.getDay() + 6) % 7)+']').addClass('active');
 	</script>
 @endsection

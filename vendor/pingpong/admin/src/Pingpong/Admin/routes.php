@@ -34,6 +34,8 @@ Route::group(['prefix' => 'admin', 'namespace' => 'Pingpong\Admin\Controllers'],
 });
 
 Route::get('schedules','SchedulesController@getIndex');
+Route::get('book/{teacher_id}/{hour}/{date}','SchedulesController@book');
+Route::get('book/success/{id}','SchedulesController@success');
 
 Route::get('audios',function(){
     return View::make('front.audio');

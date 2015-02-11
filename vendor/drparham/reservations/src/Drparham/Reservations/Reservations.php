@@ -9,11 +9,8 @@ class Reservations {
 		return \Reservation::where("user_id","=",$user_id)->get();
 	}
 
-	public static function reserveDate($user_id, $date){
-		$event = array(
-			'user_id'=>$user_id,
-			'reserved'=>$date
-			);
+	public static function reserveDate($event){
+		
 		return \Reservation::create($event);
 	}
 

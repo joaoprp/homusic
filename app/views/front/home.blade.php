@@ -394,6 +394,10 @@ H&O Music Academy
 					<h3 class="text-orange">
 						NEWS
 					</h3>
+
+					<p>&nbsp;</p>
+
+					<a href="/articles" class="button" style="display: block;width: 80px!important;padding: 5px 10px!important;color:white!important;margin:auto">MORE NEWS</a>
 		</div>
 	</div>	
 	</div>

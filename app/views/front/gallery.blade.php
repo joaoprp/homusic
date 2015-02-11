@@ -12,41 +12,113 @@ Gallery | H&O Music Academy
 		</div>
 
 		<div class="container">
-			<div class="row">
+			<div class="row gallery">
 				<div class="span3">
 					<img src="/assets/img/hover-pic.png" class="hover" />
-					<img src="http://lorempixel.com/200/200/" />
+					<img src="/assets/gallery/DSC_0075.JPG" />
+					<a class="image" data-lightbox="image-1" href="/assets/gallery/DSC_0075.JPG"></a>
 				</div>
 				<div class="span3">
 					<img src="/assets/img/hover-pic.png" class="hover" />
-					<img src="http://lorempixel.com/200/200/" />
+					<img src="/assets/gallery/DSC_0123.JPG" />
+					<a class="image" data-lightbox="image-2" href="/assets/gallery/DSC_0123.JPG"></a>
 				</div>
 				<div class="span3">
 					<img src="/assets/img/hover-pic.png" class="hover" />
-					<img src="http://lorempixel.com/200/200/" />
+					<img src="/assets/gallery/DSC_0154.JPG" />
+					<a class="image" data-lightbox="image-3" href="/assets/gallery/DSC_0154.JPG"></a>
 				</div>
 				<div class="span3">
 					<img src="/assets/img/hover-pic.png" class="hover" />
-					<img src="http://lorempixel.com/200/200/" />
+					<img src="/assets/gallery/DSC_0195.JPG" />
+					<a class="image" data-lightbox="image-4" href="/assets/gallery/DSC_0195.JPG"></a>
 				</div>
 			</div>
 
-			<div class="row">
+			<div class="row gallery">
 				<div class="span3">
 					<img src="/assets/img/hover-pic.png" class="hover" />
-					<img src="http://lorempixel.com/200/200/" />
+					<img src="/assets/gallery/DSC_0244.JPG" />
+					<a class="image" data-lightbox="image-5" href="/assets/gallery/DSC_0244.JPG"></a>
 				</div>
 				<div class="span3">
 					<img src="/assets/img/hover-pic.png" class="hover" />
-					<img src="http://lorempixel.com/200/200/" />
+					<img src="/assets/gallery/DSC_0268.JPG" />
+					<a class="image" data-lightbox="image-6" href="/assets/gallery/DSC_0268.JPG"></a>
 				</div>
 				<div class="span3">
 					<img src="/assets/img/hover-pic.png" class="hover" />
-					<img src="http://lorempixel.com/200/200/" />
+					<img src="/assets/gallery/DSC_0305.JPG" />
+					<a class="image" data-lightbox="image-7" href="/assets/gallery/DSC_0305.JPG"></a>
 				</div>
 				<div class="span3">
 					<img src="/assets/img/hover-pic.png" class="hover" />
-					<img src="http://lorempixel.com/200/200/" />
+					<img src="/assets/gallery/DSC_0350.JPG" />
+					<a class="image" data-lightbox="image-8" href="/assets/gallery/DSC_0350.JPG"></a>
+				</div>
+			</div>
+
+			<div class="row gallery">
+				<div class="span3">
+					<img src="/assets/img/hover-pic.png" class="hover" />
+					<img src="/assets/gallery/DSC_0371.JPG" />
+					<a class="image" data-lightbox="image-9" href="/assets/gallery/DSC_0371.JPG"></a>
+				</div>
+				<div class="span3">
+					<img src="/assets/img/hover-pic.png" class="hover" />
+					<img src="/assets/gallery/DSC_0389.JPG" />
+					<a class="image" data-lightbox="image-10" href="/assets/gallery/DSC_0389.JPG"></a>
+				</div>
+				<div class="span3">
+					<img src="/assets/img/hover-pic.png" class="hover" />
+					<img src="/assets/gallery/DSC_0398.JPG" />
+					<a class="image" data-lightbox="image-11" href="/assets/gallery/DSC_0398.JPG"></a>
+				</div>
+				<div class="span3">
+					<img src="/assets/img/hover-pic.png" class="hover" />
+					<img src="/assets/gallery/DSC_0409.JPG" />
+					<a class="image" data-lightbox="image-12" href="/assets/gallery/DSC_0409.JPG"></a>
+				</div>
+			</div>
+
+			<div class="row gallery">
+				<div class="span3">
+					<img src="/assets/img/hover-pic.png" class="hover" />
+					<img src="/assets/gallery/DSC_0454.JPG" />
+					<a class="image" data-lightbox="image-13" href="/assets/gallery/DSC_0454.JPG"></a>
+				</div>
+				<div class="span3">
+					<img src="/assets/img/hover-pic.png" class="hover" />
+					<img src="/assets/gallery/DSC_0528.JPG" />
+					<a class="image" data-lightbox="image-14" href="/assets/gallery/DSC_0528.JPG"></a>
+				</div>
+				<div class="span3">
+					<img src="/assets/img/hover-pic.png" class="hover" />
+					<img src="/assets/gallery/DSC_0541.JPG" />
+					<a class="image" data-lightbox="image-15" href="/assets/gallery/DSC_0541.JPG"></a>
+				</div>
+				<div class="span3">
+					<img src="/assets/img/hover-pic.png" class="hover" />
+					<img src="/assets/gallery/DSC_0558.JPG" />
+					<a class="image" data-lightbox="image-16" href="/assets/gallery/DSC_0558.JPG"></a>
+				</div>
+			</div>
+
+			<div class="row gallery">
+				<div class="span3">
+					<img src="/assets/img/hover-pic.png" class="hover" />
+					<img src="/assets/gallery/DSC_0570.JPG" />
+					<a class="image" data-lightbox="image-17" href="/assets/gallery/DSC_0570.JPG"></a>
+				</div>
+				<div class="span3">
+					<img src="/assets/img/hover-pic.png" class="hover" />
+					<img src="/assets/gallery/DSC_0576.JPG" />
+					<a class="image" data-lightbox="image-18" href="/assets/gallery/DSC_0576.JPG"></a>
+				</div>
+				<div class="span3">
+					<img src="/assets/img/hover-pic.png" class="hover" />
+					<img src="/assets/gallery/DSC_0619.JPG" />
+					<a class="image" data-lightbox="image-19" href="/assets/gallery/DSC_0619.JPG"></a>
 				</div>
 			</div>
 
@@ -95,7 +167,7 @@ Gallery | H&O Music Academy
 
 	<style type="text/css">
 		.hour {
-			color:#f05931;
+			color:#ed5a3a;
 			border-right:1px solid #B9B1A7;
 		}
 
@@ -111,14 +183,14 @@ Gallery | H&O Music Academy
 		}
 
 		.schedule-table thead td {
-			color:#f05931;
+			color:#ed5a3a;
 			font-size: 16px;
 			font-family: Rockwell;
 		}
 
 		.schedule-table a {
 			font-weight: bold;
-			color: #F05931;
+			color: #ed5a3a;
 		}
 
 		.fa-icon-medium {
@@ -147,18 +219,27 @@ Gallery | H&O Music Academy
 			margin-bottom: 20px;
 		}
 
+		.row.gallery img {
+			width: 200px;
+			height: 200px;
+		}
+
 		.container hr {
 			border-style: solid;
-			border-color: #f05931;
+			border-color: #ed5a3a;
 		}
 	</style>
+
+	<link href="/assets/lib/lightbox/css/lightbox.css" rel="stylesheet" />
 	
 @endsection
 
 @section('script')
+	
+	<script src="/assets/lib/lightbox/js/lightbox.min.js" type="text/javascript"></script>
 	<script type="text/javascript">
-
-		
-
+		$('img.hover').on('click',function(){
+			$(this).parent().find('.image').click();
+		})
 	</script>
 @endsection

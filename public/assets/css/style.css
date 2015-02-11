@@ -233,7 +233,7 @@ PARALLAX EFFECTS...........................1474
 				text-decoration:none;
 				
 			}
-			#slogan-section-3 .goprice{
+			#register .goprice{
 			filter: alpha(opacity=0);
 			filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);
 			-moz-opacity: 0;
@@ -250,7 +250,7 @@ PARALLAX EFFECTS...........................1474
 			font-size:80%;
 		}
 		
-		#slogan-section-3 .goprice.active{
+		#register .goprice.active{
 			filter: alpha(opacity=100);
 			filter: progid:DXImageTransform.Microsoft.Alpha(opacity=100);
 			-moz-opacity: 1;
@@ -259,7 +259,7 @@ PARALLAX EFFECTS...........................1474
 			margin-top:40px;
 		}
 			
-			#slogan-section-3 .goprice a{
+			#register .goprice a{
 				color:#f89406;
 				font-size:140%;
 			
@@ -277,8 +277,7 @@ PARALLAX EFFECTS...........................1474
 				-moz-box-shadow: none;
 				box-shadow: none;
 				background-color: rgba(0, 0, 0, 0.3);
-				background: rgba(0, 0, 0, 0.3) url(../img/line_bg.png) top left repeat;
-				background-image:url(../img/line_bg.png) top left repeat;
+				background: transparent;
 				padding-top:10px;
 				padding-bottom:10px;
 				border-bottom: none;
@@ -297,7 +296,7 @@ PARALLAX EFFECTS...........................1474
 			.navbar-inner.navbar-scroll {
 				border-top: none;
 				/*background:rgba(0, 0, 0, 0.7) url(../img/line_bg.png) top left repeat;*/
-				background: #f05931;
+				background: #ed5a3a;
 				padding-bottom:5px;
 				padding-top:5px;
 				-moz-transition: padding 0.5s ease-in-out;
@@ -626,10 +625,10 @@ PARALLAX EFFECTS...........................1474
 			width:100%;
 			min-height:150px;
 				z-index: 200;
-			background:#f05931;
+			background:#ed5a3a;
 		}	
 		
-		#slogan-section-3 {
+		#register {
 			
 			margin: 0 auto;
 			padding: 40px 0px;
@@ -682,7 +681,7 @@ PARALLAX EFFECTS...........................1474
 	}
 
 	#portfolio-section {
-		background: #f05931;
+		background: #ed5a3a;
 	}
 	
 	#contact-section {
@@ -1823,7 +1822,7 @@ PARALLAX EFFECTS...........................1474
 }
 
 section.internal .circle {
-	border: 3px solid #f05931;
+	border: 3px solid #ed5a3a;
 }
 
 .circle img {
@@ -1885,7 +1884,7 @@ section.internal .circle {
 }
 
 .text-orange {
-	color:#f05931;
+	color:#ed5a3a;
 }
 
 .text-white {
@@ -1911,7 +1910,7 @@ section.internal .circle {
 }
 
 .team-area .circle:hover {
-	background: #f05931;
+	background: #ed5a3a;
 }
 
 .register input {
@@ -1945,7 +1944,7 @@ section.internal .circle {
 .teacher-enclosing span {
 	display: block;
 	font-size: 15px;
-	color: #f05931;
+	color: #ed5a3a;
 	text-align: center;
 	margin-top: 155px;
 	font-family: Rockwell, times;
@@ -1992,7 +1991,7 @@ section.internal .circle {
 	width: 45px;
 	height: 45px;
 	border-radius: 45px;
-	background: #f05931;
+	background: #ed5a3a;
 	float:left;
 }
 
@@ -2102,23 +2101,27 @@ section.internal .circle {
 	width: 370px;
 }
 
+.page-content .sub-container.video {
+	width: 340px;
+}
+
 .sub-container .circle {
 	margin-left: 10px!important;
 	margin-right: 10px!important;
 }
 
 .bg-footer {
-	background: #f05931 url('/assets/img/section-side-lines-alt.png') no-repeat center;
-	background-size: 100% 50%;
-	height: 100px;
+	background: #ed5a3a url('/assets/img/section-side-lines-alt.png') no-repeat center;
+	background-size: 100%;
+	height: 200px;
 }
 
 .bg-footer img {
-	height: 100px;
+	height: 200px;
 }
 
 .bg-footer div {
-	width: 100px;
+	width: 200px;
 	margin: auto;
 }
 
@@ -2140,7 +2143,7 @@ section.internal .circle {
 
 .bg-footer-blue .social {
 	margin-top: 7px;
-	border-color: #f05931;
+	border-color: #ed5a3a;
 	margin-bottom: 5px;
 }
 
@@ -2155,7 +2158,7 @@ section.internal .circle {
 }
 
 .navbar-static-top .social {
-	border: 2px solid #f05931;
+	border: 2px solid #ed5a3a;
 }
 
 .social li {
@@ -2172,13 +2175,38 @@ section.internal .circle {
 	text-decoration: none;
 }
 
+.menu-button {
+	border: 2px solid white;
+	background: rgba(0,0,0,0)!important;
+	color:white!important;
+	width: 57px!important;
+	height: 21px!important;
+	padding:5px;
+	border-radius: 15px!important;
+	display: block;
+	float: left;
+	text-align: center;
+	margin-top: 3px;
+	font-family: Rockwell,times;
+	font-style: italic;
+	cursor: pointer;
+}
+
+.menu-button:hover {
+	text-decoration: none;
+}
+
+.navbar-static-top .menu-button {
+	border:2px solid #ed5a3a;
+}
+
 #portfolio-section .container .row .circle {
 	margin-left: 20px!important;
 	margin-right: 20px!important;
 }
 
 .button {
-	border: 2px solid #f05931;
+	border: 2px solid #ed5a3a;
 	background: rgba(0,0,0,0)!important;
 	color:#252c39!important;
 	width: auto!important;
@@ -2195,13 +2223,24 @@ section.internal .circle {
 	font-style: italic;
 }
 
-.filter .dropdown-menu {
+.dropdown-menu {
 	background: #2a3c5c url('/assets/img/caret-bg.png') no-repeat top center;
 	padding: 15px;
 	top: 94%;
 }
 
-.filter .dropdown-menu li {
+.login.dropdown-menu {
+	background: #2a3c5c url('/assets/img/caret-bg.png') no-repeat top center;
+	padding: 15px;
+	top: 94%;
+	left:-61px;
+}
+
+div.login.dropdown-menu {
+	left:-90px;
+}
+
+.dropdown-menu li {
 	text-align: center;
 	border-bottom: 1px solid #1b2639;
 	border-top: 1px solid #677080;
@@ -2211,23 +2250,32 @@ section.internal .circle {
 	font-family: Rockwell, times;
 }
 
-.filter .dropdown-menu li:hover, .filter .dropdown-menu li.active {
-	color:#f05931;
+.dropdown-menu li a {
+	color:inherit;
 }
 
-.filter .dropdown-menu li.first {
+.dropdown-menu li a:hover {
+	color:inherit;
+	background: inherit;
+}
+
+.dropdown-menu li:hover, .filter .dropdown-menu li.active {
+	color:#ed5a3a;
+}
+
+.dropdown-menu li.first {
 	border-top: none;
 	padding-top: 5px
 }
 
-.filter .dropdown-menu li.last {
+.dropdown-menu li.last {
 	border-bottom: none;
 	padding-bottom: 5px;
 }
 
 .button:hover {
-	background: #f05931!important;
-	border:2px solid #f05931;
+	background: #ed5a3a!important;
+	border:2px solid #ed5a3a;
 	box-shadow: 0px 0px 10px #c83109 inset;
 }
 
@@ -2271,7 +2319,7 @@ a.button {
 .weekdays li.active a, .weekdays li a:hover, .weekdays li.active a:hover {
 	background: none!important;
 	border: none!important;
-	border-bottom: 6px solid #f05931!important;
+	border-bottom: 6px solid #ed5a3a!important;
 }
 
 .schedule-table tbody td div {
@@ -2280,4 +2328,39 @@ a.button {
 	overflow: hidden;
 	text-overflow: ellipsis;
 	margin: auto;
+}
+
+.login-hover {
+	margin-top: -20px;
+}
+
+.login-hover input[type=text], .login-hover input[type=password] {
+	background: #1b2639;
+	border: none;
+	border-radius: 20px;
+	text-align: center;
+}
+
+.login-hover input.menu-button {
+	width: 71px!important;
+	height: 35px!important;
+	margin-left:20px;
+	margin-right:20px;
+}
+
+.login-hover .menu-button {
+	font-size: 12px!important;
+	font-style: normal;
+}
+
+.dropdown-menu.top {
+	left:-32px;
+}
+
+.dropdown-menu.top:before, .dropdown-menu.top:after {
+	display: none!important;
+}
+
+.dropdown-item {
+	position: relative;
 }

@@ -64,6 +64,10 @@ class UsersController extends BaseController {
 
         $user->addRole(\Input::get('role'));
 
+        if ( !\Auth::check() or !\Auth::user()->is('admin')) {
+            return \Redirect::to('/')->with('message','User created succesfully. You can now log in.');
+        }
+
         return $this->redirect('users.index');
     }
 

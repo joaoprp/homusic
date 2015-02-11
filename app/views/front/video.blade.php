@@ -14,10 +14,19 @@ Video | H&O Music Academy
 		<div class="container">
 			<div class="span6">
 				<iframe src="//player.vimeo.com/video/114273504?title=0&byline=0&portrait=0" width="500" height="375" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></iframe>
-			</div><!-- 
+			</div> 
 			<div class="span6">
-				<iframe src="//player.vimeo.com/video/114273504" width="500" height="375" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-			</div> -->
+				<iframe src="//player.vimeo.com/video/114273508?title=0&byline=0&portrait=0" width="500" height="375" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+			</div>
+			<div class="span6">
+				<iframe src="//player.vimeo.com/video/114273510?title=0&byline=0&portrait=0" width="500" height="375" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+			</div>
+			<div class="span6">
+				<iframe src="//player.vimeo.com/video/114273511?title=0&byline=0&portrait=0" width="500" height="375" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+			</div>
+			<div class="span6">
+				<iframe src="//player.vimeo.com/video/114273505?title=0&byline=0&portrait=0" width="500" height="375" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+			</div>
 
 			<div style="clear:both"></div>
 
@@ -31,7 +40,7 @@ Video | H&O Music Academy
 			<section class="internal">
 				<div class="parallax-point-event">
 					<div class="container">
-						<div class="row-fluid sub-container">
+						<div class="row-fluid sub-container video">
 
 							<a href="/audios" class="span4 circle">
 								<div>MUSIC</div>
@@ -63,7 +72,7 @@ Video | H&O Music Academy
 
 	<style type="text/css">
 		.hour {
-			color:#f05931;
+			color:#ed5a3a;
 			border-right:1px solid #B9B1A7;
 		}
 
@@ -79,14 +88,14 @@ Video | H&O Music Academy
 		}
 
 		.schedule-table thead td {
-			color:#f05931;
+			color:#ed5a3a;
 			font-size: 16px;
 			font-family: Rockwell;
 		}
 
 		.schedule-table a {
 			font-weight: bold;
-			color: #F05931;
+			color: #ed5a3a;
 		}
 
 		.fa-icon-medium {
@@ -100,11 +109,12 @@ Video | H&O Music Academy
 		.span6 {
 			width: 440px;
 			margin-left: 20px;
+			margin-bottom: 20px;
 		}
 
 		.container hr {
 			border-style: solid;
-			border-color: #f05931;
+			border-color: #ed5a3a;
 		}
 	</style>
 	

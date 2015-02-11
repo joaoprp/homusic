@@ -6,14 +6,38 @@ H&O Music Academy
 
 @section('header_content')
 <!-- HEADER MARKETING SLOGAN-->
-<header class="container">
-	<div class="row-fluid">
-		<div class="wrap-hero">
-			<div class="hero-unit text-center">
-				
-			</div>	
-		</div><!-- / HERO UNIT-->
-	</div><!-- / HERO WRAP-->
+<header>
+	<div id="slider1_container" style="display: none; position: relative; margin: 0 auto;
+        top: 0px; left: 0px; width: 1300px; height: 600px; overflow: hidden;">
+            <!-- Loading Screen -->
+            <div u="loading" style="position: absolute; top: 0px; left: 0px;">
+                <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block;
+                top: 0px; left: 0px; width: 100%; height: 100%;">
+                </div>
+                <div style="position: absolute; display: block; background: url(../img/loading.gif) no-repeat center center;
+                top: 0px; left: 0px; width: 100%; height: 100%;">
+                </div>
+            </div>
+            <div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 1300px; height: 500px; overflow: hidden;">
+				<div>
+					<img u="image" src2="/assets/img/slides/slide-1.png" />
+				</div>
+				<div>
+					<img u="image" src2="/assets/img/slides/slide-2.png" />
+				</div>
+				<div>
+					<img u="image" src2="/assets/img/slides/slide-3.png" />
+				</div>
+			</div>
+			<div u="navigator" class="jssorb21" style="position: absolute; bottom: 26px; left: 6px;">
+                <!-- bullet navigator item prototype -->
+                <div u="prototype" style="POSITION: absolute; WIDTH: 22px; HEIGHT: 22px; text-align:center; line-height:19px; color:White; font-size:12px;"></div>
+            </div>
+          <!--   <span u="arrowleft" class="jssora21l" style="width: 55px; height: 55px; top: 123px; left: 8px;">
+            </span>
+            <span u="arrowright" class="jssora21r" style="width: 55px; height: 55px; top: 123px; right: 8px">
+            </span> -->
+	</div>
 </header><!-- / HEADER MARKETING SLOGAN container-->
 @stop
 
@@ -307,15 +331,21 @@ H&O Music Academy
 	<div class="container">
 		
 		<div class="row" style="width:392px;margin:auto">
-			<a href="/group-lessons" class="span4 circle">
-				<img class="lessons-circle" src="/assets/img/private-lessons.png" />
-				<span class="plus-sign">+</span>
-			</a>
+			<div class="teacher-enclosing" style="margin-left:0px!important">
+				<a href="/group-lessons" class="span4 circle">
+					<img class="lessons-circle" src="/assets/img/private-lessons.png" />
+					<span class="plus-sign">+</span>
+				</a>
+				<span style="color:white;margin-left:36px;margin-top:165px;font-size:16px">Private Lessons</span>
+			</div>
 
-			<a href="/group-lessons" class="span4 circle">
-				<img class="lessons-circle" src="/assets/img/group-lessons.png" />
-				<span class="plus-sign">+</span>
-			</a>
+			<div class="teacher-enclosing" style="margin-right:0px!important">
+				<a href="/group-lessons" class="span4 circle">
+					<img class="lessons-circle" src="/assets/img/group-lessons.png" />
+					<span class="plus-sign">+</span>
+				</a>
+				<span style="color:white;margin-left:36px;margin-top:165px;font-size:16px">Group Lessons</span>
+			</div>
 		  
 		</div>
 	
@@ -324,7 +354,7 @@ H&O Music Academy
 </section><!--/ portfolio section-->
 
 <!-- /SLOGAN section-->
-<section class="" id="slogan-section-3">
+<section class="" id="register">
 <div class="container">
 	<div class="row-fluid">
 		<div class="text-center page-header">
@@ -332,11 +362,13 @@ H&O Music Academy
 		</div>
 	</div><!-- /row-fluid-->
 	<div class="row-fluid" style="width:340px;margin:auto">
-		<form>
+		<form method="POST" action="/create">
 			<div class="register" style="width:340px;float:left">
-				<input type="text" placeholder="your name*" />
-				<input type="text" placeholder="your email*" />
-				<input type="text" placeholder="your phone number*" />
+				<input type="text" name="name" placeholder="your name*" />
+				<input type="text" name='email' placeholder="your email*" />
+				<input type="text" name="username" placeholder="your phone number*" />
+				<input type="password" name="password" placeholder="your password*" />
+				<input type="hidden" name="role" value="2" />
 
 				<input class="button" type="submit" value="SUBMIT" />
 			</div>
@@ -379,7 +411,7 @@ H&O Music Academy
 			<div class="text-center page-header blue dark-blue" style="margin:auto">
 				<h4 class="text-orange" style="width:70%;background-size:100%;display:inline-block">CONTACT US</h4>
 			</div>
-			<div style="background:#f05931;padding:30px;">
+			<div style="background:#ed5a3a;padding:30px;">
 					<h4 class="text-white text-center">10627 51 Ave</h4>
 					<h4 class="text-white text-center">Edmonton, AB,</h4>
 					<h4 class="text-white text-center">T6H 0K8</h4>

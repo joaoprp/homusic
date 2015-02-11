@@ -29,7 +29,9 @@ class SiteController extends BaseController {
 
         unset($_SESSION['admin']);
 
-        return $this->redirect('login.index');
+        return \Redirect::to('/');
+
+        // return $this->redirect('login.index');
     }
 
     /**

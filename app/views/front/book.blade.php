@@ -14,11 +14,11 @@ Book | H&O Music Academy
 			<h4 class="text-center"><i class="fa-icon-calendar"></i> H & O Music Academy Online Scheduler</h4>
 
 			<dl>
-				<span class="text-center" style="display:block"><b>Class:</b> <span style="color:#f05931;font-style:italic">{{ $className }}</span>
-				<span class="text-center" style="display:block"><b>Teacher:</b> <span style="color:#f05931;font-style:italic">{{ $teacherName }}</span>
-				<span class="text-center" style="display:block"><b>Class:</b> <span style="color:#f05931;font-style:italic">{{ $formattedDate }}</span>
+				<span class="text-center" style="display:block"><b>Class:</b> <span style="color:#ed5a3a;font-style:italic">{{ $className }}</span>
+				<span class="text-center" style="display:block"><b>Teacher:</b> <span style="color:#ed5a3a;font-style:italic">{{ $teacherName }}</span>
+				<span class="text-center" style="display:block"><b>Class:</b> <span style="color:#ed5a3a;font-style:italic">{{ $formattedDate }}</span>
 			</dl>
-
+			@if(\Auth::id())
 			<form method="POST" action="/reserveDate" class="text-center">
 				<input type="hidden" value="{{ $teacher_id }}" name="teacher_id" />
 				<input type="hidden" value="{{ $date }}" name="date" />
@@ -27,7 +27,39 @@ Book | H&O Music Academy
 
 				<input type="submit" class="button" value="CONFIRM" />
 			</form>
-
+			@else
+				<div class="login-register-box">
+					Please <a class="open-login">Log in</a> or <a href="/#register">Register</a> to continue
+				</div>
+			@endif
 		</div>
 	</div>
+@endsection
+
+@section('css')
+	<style type="text/css">
+		.open-login {
+			cursor: pointer;
+		}
+
+		.login-register-box {
+			text-align: center;
+			width: 380px;
+			margin: auto;
+			padding-bottom: 40px;
+			padding-top: 40px;
+			border: 2px solid #ed5a3a;
+			margin-bottom: 20px;
+			border-radius: 7px;
+		}
+	</style>
+@endsection
+
+@section('script')
+	<script type="text/javascript">
+		$('.open-login').on('click',function(){
+			$('.menu-button.dropdown-toggle').trigger('click');
+			return false;
+		});
+	</script>
 @endsection

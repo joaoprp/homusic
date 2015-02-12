@@ -53,22 +53,72 @@
  <!-- START TOP MENU -->
  <!-- ################-->
   <nav class="nav-top">
-    <div class="navbar navbar-static-top" id="topnavbar" style="background:#f05931!important;"> 
+    <div class="navbar navbar-static-top" id="topnavbar" style="background:#ed5a3a!important;"> 
       <!-- navbar-fixed-top -->
-      <div class="navbar-inner" id="navbartop" style="background:#f05931!important;">
-        <div class="container"> <a class="pull-left" href="/"> 
+      <div class="navbar-inner" id="navbartop" style="background:#ed5a3a!important;">
+        <div class="container" style="width:950px"> <a class="pull-left" href="/"> 
 		<img src="/assets/img/logo.png" alt="Logo" style="margin-right:30px;height:39px!important" />
 		<!--<img src="/assets/img/Logo.png" alt="Logo">--></a>
           <div id="main-nav" class="scroller-spy">
             <nav class="nav-collapse collapse" >
               <ul class="nav" id="nav">
-                <li><a href="/#header-section">Home</a> </li>
-				<li><a href="/#features-section">Academy</a> </li>
-				<li><a href="group-lessons">Music Lessons</a> </li>
-				<li><a href="faq">FAQ</a> </li>
-				<li><a href="/#price-section">News</a> </li>
+                <li class="active"><a href="#header-section">Home</a> </li>
+				<li class="dropdown-item">
+					<a href="/schedules">Calendar</a>
+					<ul class="dropdown-menu top">
+	            		<li class="first last"><a href="/#team-section">Teachers</a></li>
+	            	</ul>
+				</li>
+				<li class="dropdown-item">
+					<a href="#features-section">Academy</a>
+					<ul class="dropdown-menu top">
+	            		<li class="first"><a href="/#features-section">About Us</a></li>
+	            		<li class=""><a href="/#team-section">Team</a></li>
+	            		<li class=""><a href="/videos">Videos</a></li>
+	            		<li class=""><a href="/audios">Audios</a></li>
+	            		<li class="last"><a href="/gallery">Gallery</a></li>
+	            	</ul>
+				</li>
+				<li class="dropdown-item">
+					<a href="/#portfolio-section">Music Lessons</a>
+					<ul class="dropdown-menu top">
+	            		<li class="first"><a href="/private-lessons">Private Lessons</a></li>
+	            		<li class="last"><a href="/group-lessons">Group Lessons</a></li>
+	            	</ul>
+				</li>
+				<li><a href="/faq">FAQ</a> </li>
+				<li><a href="/articles">News</a> </li>
 				<li><a href="/#contact-section">Contact</a> </li>
               </ul>
+
+              <div style="float:left;position:relative">
+              	@if (\Auth::user())              
+	            <a class="menu-button dropdown-toggle" style="border-color:white!important;" data-toggle="dropdown" aria-expanded="true">{{ \Auth::user()->name }}</a>
+	            <ul class="dropdown-menu login" role="menu">
+	            	<li class="first last"><a href="/logout">Logout</a></li>
+	            </ul>
+	            @else
+	            <a class="menu-button dropdown-toggle" style="border-color:white!important;" data-toggle="dropdown" aria-expanded="true">login</a>
+	            <div class="dropdown-menu login" role="menu">
+				  <div class="text-center page-header">
+					<h5 class="">
+						<span>
+							LOGIN
+						</span>	
+					</h5>
+				  </div>
+				  {{ Form::open(['route' => 'admin.login.store', 'id' => 'login-form']) }}
+				  	<div class="login-hover">
+						<input type="text" name="email" placeholder="E-mail Address" />
+						<input type="password" name="password" placeholder="Password" />
+
+						<input class="menu-button" type="submit" value="SIGN IN" />
+						<a class="menu-button" href="/#register">REGISTER</a>
+					</div>
+				  {{ Form::close() }}
+				</div>
+				@endif
+			  </div>
 
               <ul class="social" style="border-color:white!important;">
 		      	<li><a href="https://www.facebook.com/homusicacademy" target="_blank"><i class="fa-icon-facebook"></i></a></li>
@@ -116,7 +166,8 @@
     ================================================== --> 
 <!-- Placed at the end of the document so the pages load faster --> 
 
-<script src="/assets/js/jquery.js" type="text/javascript"></script> 
+<!-- <script src="/assets/js/jquery.js" type="text/javascript"></script>  -->
+<script src="/assets/lib/lightbox/js/jquery-1.11.0.min.js" type="text/javascript"></script>
 <script src="/assets/js/google-code-prettify/prettify.js" type="text/javascript"></script> 
 <script src="/assets/js/bootstrap-transition.js" type="text/javascript"></script> 
 <script src="/assets/js/bootstrap-alert.js" type="text/javascript"></script> 
@@ -224,7 +275,7 @@ jQuery('#slogan-section-2 .parallax-point-event').bind('inview', function (event
 </script>
 
 <script>
-jQuery('#slogan-section-3').bind('inview', function (event, visible) {
+jQuery('#register').bind('inview', function (event, visible) {
         if (visible == true) {
             jQuery('.goprice').addClass("active");
 		}else{
@@ -305,6 +356,26 @@ jQuery('#header-section').bind('inview', function (event, visible) {
 		</script>
 		<script>
 			jQuery('.carousel').carousel()
+		</script>
+
+		<script type="text/javascript">
+			$('.dropdown-menu.login').on('click',function(e){
+				if ($(e.toElement).val() != "SIGN IN" && e.toElement.tagName != 'A') {
+					return false;
+				}
+			});
+
+			$('.dropdown-item').on('mouseenter',function(){
+				$(this).find('ul').show();
+			}).on('mouseleave',function(){
+				$(this).find('ul').hide();
+			});
+
+			$('.dropdown-menu.top').on('mouseenter',function(){
+				$(this).show();
+			}).on('mouseleave',function(){
+				$(this).hide();
+			})
 		</script>
 
 @yield('script')

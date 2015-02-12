@@ -104,7 +104,7 @@ Schedules | H&O Music Academy
 
 	<style type="text/css">
 		.hour {
-			color:#f05931;
+			color:#ed5a3a;
 			border-right:1px solid #B9B1A7;
 		}
 
@@ -121,14 +121,14 @@ Schedules | H&O Music Academy
 		}
 
 		.schedule-table thead td {
-			color:#f05931;
+			color:#ed5a3a;
 			font-size: 16px;
 			font-family: Rockwell;
 		}
 
 		.schedule-table a {
 			font-weight: bold;
-			color: #F05931;
+			color: #ed5a3a;
 		}
 	</style>
 	

@@ -9,7 +9,7 @@ class Create extends Validator {
 		return [
 	        'name' => 'required',
 	        'email' => 'required|email|unique:users,email',
-	        'username' => 'required|unique:users,username',
+	        'username' => 'required',
 	        'password' => 'required|min:6|max:20',
 	    ];
 	}

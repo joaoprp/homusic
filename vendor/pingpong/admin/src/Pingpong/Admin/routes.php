@@ -7,6 +7,16 @@ Route::group(['prefix' => 'admin', 'namespace' => 'Pingpong\Admin\Controllers'],
         Route::resource('login', 'LoginController', ['only' => ['index', 'store']]);
     });
 
+    Route::get('schedules', ['as' => 'admin.calendar.schedules', 'uses' => 'CalendarController@indexSchedules']);
+    Route::get('schedules/new', ['as' => 'admin.calendar.createSchedule', 'uses' => 'CalendarController@indexSchedules']);
+    Route::get('schedules/update/{id}', ['as' => 'admin.calendar.editSchedule', 'uses' => 'CalendarController@indexSchedules']);
+    Route::get('schedules/delete/{id}', ['as' => 'admin.schedules.destroy', 'uses' => 'CalendarController@indexSchedules']);
+
+    Route::get('reservations', ['as' => 'admin.calendar.reservations', 'uses' => 'CalendarController@indexReservations']);
+    Route::get('reservations/new', ['as' => 'admin.calendar.createReservation', 'uses' => 'CalendarController@indexSchedules']);
+    Route::get('reservations/update/{id}', ['as' => 'admin.calendar.editReservation', 'uses' => 'CalendarController@indexSchedules']);
+    Route::get('reservations/delete/{id}', ['as' => 'admin.reservations.destroy', 'uses' => 'CalendarController@indexSchedules']);
+
     Route::group(['before' => 'admin.auth'], function ()
     {
         Route::get('/', ['as' => 'admin.home', 'uses' => 'SiteController@index']);
@@ -36,6 +46,13 @@ Route::group(['prefix' => 'admin', 'namespace' => 'Pingpong\Admin\Controllers'],
 Route::get('schedules','SchedulesController@getIndex');
 Route::get('book/{teacher_id}/{hour}/{date}','SchedulesController@book');
 Route::get('book/success/{id}','SchedulesController@success');
+Route::get('/logout', ['as' => 'logout', 'uses' => 'Pingpong\Admin\Controllers\SiteController@logout']);
+
+Route::get('articles','ArticlesController@getIndex');
+
+Route::get('article/{slug}','ArticlesController@view');
+
+Route::post('create','Pingpong\Admin\Controllers\UsersController@store');
 
 Route::get('audios',function(){
     return View::make('front.audio');

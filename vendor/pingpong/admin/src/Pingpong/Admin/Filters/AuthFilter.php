@@ -12,9 +12,9 @@ class AuthFilter extends Filter {
     {
         if ( ! Auth::check() or ! Auth::user()->is('admin'))
         {
-            Auth::logout();
+            // Auth::logout();
 
-            return Redirect::route('admin.login.index');
+            return Redirect::to('/');
         }
     }
 

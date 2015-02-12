@@ -1,0 +1,19 @@
+[11-Feb-2015 18:17:01 America/Edmonton] PHP Fatal error:  Call to undefined method Illuminate\Database\Eloquent\Collection::paginate() in /home/joaoprp/public_html/homusic/vendor/pingpong/admin/src/Pingpong/Admin/Controllers/CalendarController.php on line 25
+[11-Feb-2015 18:18:57 America/Edmonton] PHP Warning:  Uncaught exception 'ErrorException' with message 'Undefined variable: users' in /home/joaoprp/public_html/homusic/app/storage/views/1e9c9ed9a5fe81593283c79816249390:3
+Stack trace:
+#0 /home/joaoprp/public_html/homusic/app/storage/views/1e9c9ed9a5fe81593283c79816249390(3): Illuminate\Exception\Handler->handleError(8, 'Undefined varia...', '/home/joaoprp/p...', 3, Array)
+#1 /home/joaoprp/public_html/homusic/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(37): include('/home/joaoprp/p...')
+#2 /home/joaoprp/public_html/homusic/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(56): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/joaoprp/p...', Array)
+#3 /home/joaoprp/public_html/homusic/vendor/laravel/framework/src/Illuminate/View/View.php(134): Illuminate\View\Engines\CompilerEngine->get('/home/joaoprp/p...', Array)
+#4 /home/joaoprp/public_html/homusic/vendor/laravel/framework/src/Illuminate/View/View.php(102): Illuminate\View\View->getContents()
+#5 /home/joaoprp/pub in /home/joaoprp/public_html/homusic/app/storage/views/1e9c9ed9a5fe81593283c79816249390 on line 3
+[11-Feb-2015 18:18:57 America/Edmonton] PHP Fatal error:  Call to a member function getTotal() on a non-object in /home/joaoprp/public_html/homusic/app/storage/views/1e9c9ed9a5fe81593283c79816249390 on line 3
+[11-Feb-2015 18:19:11 America/Edmonton] PHP Warning:  Uncaught exception 'ErrorException' with message 'Undefined variable: users' in /home/joaoprp/public_html/homusic/app/storage/views/1e9c9ed9a5fe81593283c79816249390:3
+Stack trace:
+#0 /home/joaoprp/public_html/homusic/app/storage/views/1e9c9ed9a5fe81593283c79816249390(3): Illuminate\Exception\Handler->handleError(8, 'Undefined varia...', '/home/joaoprp/p...', 3, Array)
+#1 /home/joaoprp/public_html/homusic/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(37): include('/home/joaoprp/p...')
+#2 /home/joaoprp/public_html/homusic/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(56): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/joaoprp/p...', Array)
+#3 /home/joaoprp/public_html/homusic/vendor/laravel/framework/src/Illuminate/View/View.php(134): Illuminate\View\Engines\CompilerEngine->get('/home/joaoprp/p...', Array)
+#4 /home/joaoprp/public_html/homusic/vendor/laravel/framework/src/Illuminate/View/View.php(102): Illuminate\View\View->getContents()
+#5 /home/joaoprp/pub in /home/joaoprp/public_html/homusic/app/storage/views/1e9c9ed9a5fe81593283c79816249390 on line 3
+[11-Feb-2015 18:19:11 America/Edmonton] PHP Fatal error:  Call to a member function getTotal() on a non-object in /home/joaoprp/public_html/homusic/app/storage/views/1e9c9ed9a5fe81593283c79816249390 on line 3

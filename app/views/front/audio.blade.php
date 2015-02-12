@@ -136,7 +136,7 @@ Music | H&O Music Academy
 
 	<style type="text/css">
 		.hour {
-			color:#f05931;
+			color:#ed5a3a;
 			border-right:1px solid #B9B1A7;
 		}
 
@@ -152,14 +152,14 @@ Music | H&O Music Academy
 		}
 
 		.schedule-table thead td {
-			color:#f05931;
+			color:#ed5a3a;
 			font-size: 16px;
 			font-family: Rockwell;
 		}
 
 		.schedule-table a {
 			font-weight: bold;
-			color: #F05931;
+			color: #ed5a3a;
 		}
 
 		.fa-icon-medium {
@@ -172,7 +172,7 @@ Music | H&O Music Academy
 
 		.container hr {
 			border-style: solid;
-			border-color: #f05931;
+			border-color: #ed5a3a;
 		}
 	</style>
 	

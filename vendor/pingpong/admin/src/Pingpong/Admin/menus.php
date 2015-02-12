@@ -24,4 +24,9 @@ Menu::create('admin-menu', function ($menu)
         $sub->route('admin.roles.index', 'Roles');
         $sub->route('admin.permissions.index', 'Permissions');
     }, ['icon' => 'fa fa-users']);
+    $menu->dropdown('Calendar', function($sub)
+    {
+        $sub->route('admin.calendar.schedules', 'Schedules');
+        $sub->route('admin.calendar.reservations', 'Reservations');
+    },['icon' => 'fa fa-calendar']);
 });

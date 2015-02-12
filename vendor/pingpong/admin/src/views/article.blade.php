@@ -7,7 +7,9 @@
 @section('content')
 
 	<div class="page-content" style="background:#e2daca">
-		{{ $post->body }}
+		<div class="container">
+			{{ $post->body }}
+		</div>
 	</div>
 
 @endsection
@@ -16,8 +18,8 @@
 
 	<style type="text/css">
 		.table-vertical-borders td {
-			border-left: 1px solid #f05931;
-			border-right: 1px solid #f05931;
+			border-left: 1px solid #ed5a3a;
+			border-right: 1px solid #ed5a3a;
 			vertical-align: top;
 		}
 

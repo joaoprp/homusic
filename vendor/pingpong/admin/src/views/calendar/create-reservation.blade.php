@@ -1,16 +1,19 @@
 @extends('admin::layouts.master')
 
-@section('content-header')	
+@section('content-header')
+	
+	
 	<h1>
-		Edit
+		Add New
 		&middot;
 		<small>{{ link_to_route('admin.calendar.reservations', 'Back') }}</small>
 	</h1>
+
 @stop
 
 @section('content')
 	<div>
-		@include('admin::calendar.form-reservation', array('model' => $reservations) + compact('role','roleUser'))
+		@include('admin::calendar.form-reservation')
 	</div>
 
 @stop

@@ -12,6 +12,7 @@ if (Auth::check())
     }
 
     Trusty::when(['admin/users', 'admin/users/*'], 'manage_users');
+    Trusty::when(['admin/schedules', 'admin/schedules/*'], 'manage_schedules');
     Trusty::when(['admin/pages', 'admin/pages/*'], 'manage_pages');
     Trusty::when(['admin/articles', 'admin/articles/*'], 'manage_articles');
     Trusty::when(['admin/categories', 'admin/categories/*'], 'manage_categories');

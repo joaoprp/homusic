@@ -33,8 +33,9 @@ class CalendarController extends BaseController {
     {
         $reservations = \Reservation::paginate(10);
         $no = $reservations->getFrom();
-	$teachers = \Teacher::all()->keyBy('id');
-	$users = \User::all()->keyBy('id');
+	   
+       $teachers = \Teacher::all()->keyBy('id');
+	   $users = \User::all()->keyBy('id');
 
         return $this->view('calendar.index-reservation', compact('reservations', 'no','users','teachers'));
     }
@@ -44,9 +45,31 @@ class CalendarController extends BaseController {
      *
      * @return Response
      */
-    public function create()
+    public function createSchedule()
     {
-        return $this->view('users.create');
+        $teachers = \Teacher::all();
+
+        foreach ($teachers as $teacher) {
+            $role[$teacher->id] = $teacher->first_name;
+        }
+
+        return $this->view('calendar.create-schedule',compact('role'));
+    }
+
+    public function createReservation()
+    {
+        $teachers = \Teacher::all();
+        $users = \User::all();
+
+        foreach ($teachers as $teacher) {
+            $role[$teacher->id] = $teacher->first_name;
+        }
+
+        foreach ($users as $user) {
+            $roleUser[$user->id] = $user->name;
+        }
+
+        return $this->view('calendar.create-reservation',compact('role','roleUser'));
     }
 
     /**
@@ -54,39 +77,25 @@ class CalendarController extends BaseController {
      *
      * @return Response
      */
-    public function store()
+    public function storeSchedule()
     {
-        app('Pingpong\Admin\Validation\User\Create')->validate($data = $this->inputAll());
+        app('Pingpong\Admin\Validation\Schedule\Create')->validate($data = $this->inputAll());
 
-        $user = $this->users->create($data);
+        $schedule = \Schedule::create($data);
 
-        $user->addRole(\Input::get('role'));
-
-        if ( !\Auth::check() or !\Auth::user()->is('admin')) {
-            return \Redirect::to('/')->with('message','User created succesfully. You can now log in.');
-        }
-
-        return $this->redirect('users.index');
+        return $this->redirect('calendar.schedules');
     }
 
-    /**
-     * Display the specified user.
-     *
-     * @param  int $id
-     * @return Response
-     */
-    public function show($id)
+    public function storeReservation()
     {
-        try
-        {
-            $user = $this->users->findOrFail($id);
-            return $this->view('users.show', compact('user'));
-        }
-        catch (ModelNotFoundException $e)
-        {
-            return $this->redirectNotFound();
-        }
+        app('Pingpong\Admin\Validation\Reservation\Create')->validate($data = $this->inputAll());
+
+        $schedule = \Reservation::create($data);
+
+        return $this->redirect('calendar.reservations');
     }
+
+    
 
     /**
      * Show the form for editing the specified user.
@@ -94,15 +103,43 @@ class CalendarController extends BaseController {
      * @param  int $id
      * @return Response
      */
-    public function edit($id)
+    public function editSchedules($id)
     {
         try
         {
-            $user = $this->users->findOrFail($id);
+            $schedule = \Schedule::findOrFail($id);
 
-            $role = $user->getRole() ? $user->getRole()->id : null;
+            $teachers = \Teacher::all();
 
-            return $this->view('users.edit', compact('user', 'role'));
+            foreach ($teachers as $teacher) {
+                $role[$teacher->id] = $teacher->first_name;
+            }
+
+            return $this->view('calendar.edit-schedule', compact('schedule','role'));
+        }
+        catch (ModelNotFoundException $e)
+        {
+            return $this->redirectNotFound();
+        }
+    }
+
+    public function editReservation($id)
+    {
+        try
+        {
+            $reservations = \Reservation::findOrFail($id);
+            $teachers = \Teacher::all();
+            $users = \User::all();
+
+            foreach ($teachers as $teacher) {
+                $role[$teacher->id] = $teacher->first_name;
+            }
+
+            foreach ($users as $user) {
+                $roleUser[$user->id] = $user->name;
+            }
+
+            return $this->view('calendar.edit-reservation', compact('reservations','role','roleUser'));
         }
         catch (ModelNotFoundException $e)
         {
@@ -116,21 +153,39 @@ class CalendarController extends BaseController {
      * @param  int $id
      * @return Response
      */
-    public function update($id)
+    public function updateSchedule($id)
     {
         try
         {   
-            $data = ! \Input::has('password') ? \Input::except('password') : $this->inputAll();
-            
-            $user = $this->users->findOrFail($id);
+            $data = $this->inputAll();
+
+            $schedule = \Schedule::findOrFail($id);
                 
-            app('Pingpong\Admin\Validation\User\Update')->validate($data);
+            app('Pingpong\Admin\Validation\Schedule\Update')->validate($data);
             
-            $user->update($data);
+            $schedule->update($data);
 
-            $user->updateRole(\Input::get('role'));
+            return $this->redirect('calendar.schedules');
+        }
+        catch (ModelNotFoundException $e)
+        {
+            return $this->redirectNotFound();
+        }
+    }
 
-            return $this->redirect('users.index');
+    public function updateReservation($id)
+    {
+        try
+        {   
+            $data = $this->inputAll();
+
+            $reservation = \Reservation::findOrFail($id);
+                
+            app('Pingpong\Admin\Validation\Reservation\Update')->validate($data);
+            
+            $reservation->update($data);
+
+            return $this->redirect('calendar.reservations');
         }
         catch (ModelNotFoundException $e)
         {
@@ -144,13 +199,27 @@ class CalendarController extends BaseController {
      * @param  int $id
      * @return Response
      */
-    public function destroy($id)
+    public function destroySchedule($id)
     {
         try
         {
-            $this->users->destroy($id);
+            \Schedule::destroy($id);
 
-            return $this->redirect('users.index');
+            return $this->redirect('calendar.schedules');
+        }
+        catch (ModelNotFoundException $e)
+        {
+            return $this->redirectNotFound();
+        }
+    }
+
+    public function destroyReservation($id)
+    {
+        try
+        {
+            \Reservation::destroy($id);
+
+            return $this->redirect('calendar.reservations');
         }
         catch (ModelNotFoundException $e)
         {

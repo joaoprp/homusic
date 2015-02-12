@@ -8,14 +8,24 @@ Route::group(['prefix' => 'admin', 'namespace' => 'Pingpong\Admin\Controllers'],
     });
 
     Route::get('schedules', ['as' => 'admin.calendar.schedules', 'uses' => 'CalendarController@indexSchedules']);
-    Route::get('schedules/new', ['as' => 'admin.calendar.createSchedule', 'uses' => 'CalendarController@indexSchedules']);
-    Route::get('schedules/update/{id}', ['as' => 'admin.calendar.editSchedule', 'uses' => 'CalendarController@indexSchedules']);
-    Route::get('schedules/delete/{id}', ['as' => 'admin.schedules.destroy', 'uses' => 'CalendarController@indexSchedules']);
+    
+    Route::get('schedules/new', ['as' => 'admin.calendar.createSchedule', 'uses' => 'CalendarController@createSchedule']);
+    Route::post('schedules/new', ['as' => 'admin.calendar.storeSchedule', 'uses' => 'CalendarController@storeSchedule']);
+    
+    Route::get('schedules/edit/{id}', ['as' => 'admin.calendar.editSchedule', 'uses' => 'CalendarController@editSchedules']);
+    Route::put('schedules/update/{id}', ['as' => 'admin.calendar.updateSchedule', 'uses' => 'CalendarController@updateSchedule']);
+    
+    Route::delete('schedules/delete/{id}', ['as' => 'admin.schedules.destroy', 'uses' => 'CalendarController@destroySchedule']);
 
     Route::get('reservations', ['as' => 'admin.calendar.reservations', 'uses' => 'CalendarController@indexReservations']);
-    Route::get('reservations/new', ['as' => 'admin.calendar.createReservation', 'uses' => 'CalendarController@indexSchedules']);
-    Route::get('reservations/update/{id}', ['as' => 'admin.calendar.editReservation', 'uses' => 'CalendarController@indexSchedules']);
-    Route::get('reservations/delete/{id}', ['as' => 'admin.reservations.destroy', 'uses' => 'CalendarController@indexSchedules']);
+    
+    Route::get('reservations/new', ['as' => 'admin.calendar.createReservation', 'uses' => 'CalendarController@createReservation']);
+    Route::post('reservations/new', ['as' => 'admin.calendar.storeReservation', 'uses' => 'CalendarController@storeReservation']);
+    
+    Route::get('reservations/update/{id}', ['as' => 'admin.calendar.editReservation', 'uses' => 'CalendarController@editReservation']);
+    Route::put('reservations/update/{id}', ['as' => 'admin.calendar.updateReservation', 'uses' => 'CalendarController@updateReservation']);
+    
+    Route::delete('reservations/delete/{id}', ['as' => 'admin.reservations.destroy', 'uses' => 'CalendarController@destroyReservation']);
 
     Route::group(['before' => 'admin.auth'], function ()
     {

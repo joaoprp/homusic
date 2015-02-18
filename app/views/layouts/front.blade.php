@@ -13,7 +13,7 @@
 <!-- !important THIS STYLE CSS ON BOTTOM OF STYLEs LIST-->
 <link href="assets/css/style.css" rel="stylesheet">
 <!-- !important THIS STYLE CSS ON BOTTOM OF STYLEs LIST-->
-<link href="assets/css/font-awesome.min.css" rel="stylesheet"> 
+<link href="assets/css/font-awesome.css" rel="stylesheet"> 
 <link href="assets/css/prettyPhoto.css" rel="stylesheet" type="text/css" />
 <link href="assets/js/google-code-prettify/prettify.css" rel="stylesheet">
 <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
@@ -120,7 +120,7 @@
     <div class="navbar navbar-static-top" id="topnavbar"> 
       <!-- navbar-fixed-top -->
       <div class="navbar-inner" id="navbartop">
-        <div class="container" style="width:950px"> <a class="pull-left" href="/"> 
+        <div class="container main-container"> <a class="pull-left" href="/"> 
 		<img src="assets/img/logo.png" alt="Logo" style="margin-right:30px;height:39px!important" />
 		<!--<img src="assets/img/Logo.png" alt="Logo">--></a>
           <div id="main-nav" class="scroller-spy">
@@ -183,8 +183,8 @@
 				@endif
 			  </div>
               <ul class="social">
-              	<li><a href="https://www.facebook.com/homusicacademy" target="_blank"><i class="fa-icon-facebook"></i></a></li>
-              	<li><a href="https://twitter.com/HOMusicAcademy" target="_blank"><i class="fa-icon-twitter"></i></a></li>
+              	<li><a href="https://www.facebook.com/homusicacademy" target="_blank"><i class="fa fa-facebook"></i></a></li>
+              	<li><a href="https://twitter.com/HOMusicAcademy" target="_blank"><i class="fa fa-twitter"></i></a></li>
               </ul>
             </nav>
 			
@@ -215,8 +215,8 @@
 		<div>
 			<span>Copyright &copy; 2014 H&O Music Academy. All rights reserved</span>
 			<ul class="social">
-		      	<li><a href="https://www.facebook.com/homusicacademy" target="_blank"><i class="fa-icon-facebook"></i></a></li>
-		      	<li><a href="https://twitter.com/HOMusicAcademy" target="_blank"><i class="fa-icon-twitter"></i></a></li>
+		      	<li><a href="https://www.facebook.com/homusicacademy" target="_blank"><i class="fa fa-facebook"></i></a></li>
+		      	<li><a href="https://twitter.com/HOMusicAcademy" target="_blank"><i class="fa fa-twitter"></i></a></li>
 		    </ul>
 		</div>
 		<div style="clear:both"></div>
@@ -292,7 +292,7 @@ jQuery(document).ready(function(){
 	 var options = {
                 $FillMode: 2,                                       //[Optional] The way to fill image in slide, 0 stretch, 1 contain (keep aspect ratio and put all inside slide), 2 cover (keep aspect ratio and cover whole slide), 4 actual size, 5 contain for large image, actual size for small image, default value is 0
                 $AutoPlay: true,                                    //[Optional] Whether to auto play, to enable slideshow, this option must be set to true, default value is false
-                $AutoPlayInterval: 4000,                            //[Optional] Interval (in milliseconds) to go for next slide since the previous stopped if the slider is auto playing, default value is 3000
+                $AutoPlayInterval: 6000,                            //[Optional] Interval (in milliseconds) to go for next slide since the previous stopped if the slider is auto playing, default value is 3000
                 $PauseOnHover: 1,                                   //[Optional] Whether to pause when mouse over if a slider is auto playing, 0 no pause, 1 pause for desktop, 2 pause for touch device, 3 pause for desktop and touch device, 4 freeze for desktop, 8 freeze for touch device, 12 freeze for desktop and touch device, default value is 1
 
                 $ArrowKeyNavigation: true,   			            //[Optional] Allows keyboard (arrow key) navigation or not, default value is false

@@ -59,6 +59,7 @@ Route::get('book/success/{id}','SchedulesController@success');
 Route::get('/logout', ['as' => 'logout', 'uses' => 'Pingpong\Admin\Controllers\SiteController@logout']);
 
 Route::get('articles','ArticlesController@getIndex');
+Route::get('gallery','GalleriesController@getIndex');
 
 Route::get('article/{slug}','ArticlesController@view');
 
@@ -70,8 +71,4 @@ Route::get('audios',function(){
 
 Route::get('videos',function(){
     return View::make('front.video');
-});
-
-Route::get('gallery',function(){
-    return View::make('front.gallery');
 });

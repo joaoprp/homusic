@@ -29,7 +29,7 @@ H&O Music Academy
 					<img u="image" src2="/assets/img/slides/slide-3.png" />
 				</div>
 			</div>
-			<div u="navigator" class="jssorb21" style="position: absolute; bottom: 26px; left: 6px;">
+			<div u="navigator" class="jssorb21" style="position: absolute; bottom: 100px; left: 6px;">
                 <!-- bullet navigator item prototype -->
                 <div u="prototype" style="POSITION: absolute; WIDTH: 22px; HEIGHT: 22px; text-align:center; line-height:19px; color:White; font-size:12px;"></div>
             </div>
@@ -411,18 +411,18 @@ H&O Music Academy
 	
 	</section>
 	<section id="map-section">
-		<div class="address-data" style="position:relative;z-index:1;left:20%;top:30px;height:800px;width:300px;">
-			<div class="text-center page-header blue dark-blue" style="margin:auto">
-				<h4 class="text-orange" style="width:70%;background-size:100%;display:inline-block">CONTACT US</h4>
+		<div class="address-data">
+			<div class="text-center page-header" style="margin:auto">
+				<h4>CONTACT US</h4>
 			</div>
-			<div style="background:#ed5a3a;padding:30px;">
-					<h4 class="text-white text-center">10627 51 Ave</h4>
-					<h4 class="text-white text-center">Edmonton, AB,</h4>
-					<h4 class="text-white text-center">T6H 0K8</h4>
+			<div class="content-address">
+					<h4 class="text-center">10627 51 Ave</h4>
+					<h4 class="text-center">Edmonton, AB,</h4>
+					<h4 class="text-center">T6H 0K8</h4>
 				
 				<hr style="border-top:1px solid #c22f12" />
-					<h4 class="text-white text-center">Phone: (780) 989 0701</h4>
-					<h4 class="text-white text-center">Fax: (780) 989 0702</h4>
+					<h4 class="text-center">Phone: (780) 989 0701</h4>
+					<h4 class="text-center">Fax: (780) 989 0702</h4>
 				
 			</div>
 		</div>

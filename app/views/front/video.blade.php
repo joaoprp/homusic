@@ -98,7 +98,7 @@ Video | H&O Music Academy
 			color: #ed5a3a;
 		}
 
-		.fa-icon-medium {
+		.fa-medium {
 			float: left;
 			color: white;
 			margin-left: 20px;

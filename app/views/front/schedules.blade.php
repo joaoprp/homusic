@@ -14,7 +14,7 @@ Schedules | H&O Music Academy
 		</div>
 
 		<div class="container">
-			<ul class="weekdays fa-icon-calendar nav nav-tabs">
+			<ul class="weekdays fa fa-calendar nav nav-tabs">
 				<li weekday=0><a href="#Monday" aria-controls="Monday" role="tab" data-toggle="tab">Mon</a></li>
 				<li weekday=1><a href="#Tuesday" aria-controls="Tuesday" role="tab" data-toggle="tab">Tue</a></li>
 				<li weekday=2><a href="#Wednesday" aria-controls="Wednesday" role="tab" data-toggle="tab">Wed</a></li>

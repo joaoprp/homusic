@@ -14,81 +14,81 @@ Music | H&O Music Academy
 		<div class="container">
 			<div class="player" id="audio1">
 				<div class="top">
-					<div class="toggle-play" id="audio1"><i class="fa-icon-play fa-icon-white fa-icon-large"></i></div>
+					<div class="toggle-play" id="audio1"><i class="fa fa-play fa-white fa-lg"></i></div>
 					<div class="title">Mr Jones</div>
 					<div style="clear:both"></div>
 				</div>
 				<div class="time-slider"></div>
 				<div class="bottom">
-					<div class="play-toggle fa-icon-pause fa-icon-large" id="audio1"></div>
+					<div class="play-toggle fa fa-pause fa-lg" id="audio1"></div>
 					<div class="time">
 						<span class="current">1:25</span> / <span class="total">5:25</span>
 					</div>
-					<div class="volume"><i class="fa-icon-volume-up fa-icon-medium"></i><div class="vol-slider"></div></div>
+					<div class="volume"><i class="fa fa-volume-up fa-medium"></i><div class="vol-slider"></div></div>
 				</div>
 			</div>
 
 			<div class="player" id="audio2">
 				<div class="top">
-					<div class="toggle-play" id="audio2"><i class="fa-icon-play fa-icon-white fa-icon-large"></i></div>
+					<div class="toggle-play" id="audio2"><i class="fa fa-play fa-white fa-lg"></i></div>
 					<div class="title">Roar</div>
 					<div style="clear:both"></div>
 				</div>
 				<div class="time-slider"></div>
 				<div class="bottom">
-					<div class="play-toggle fa-icon-pause fa-icon-large" id="audio2"></div>
+					<div class="play-toggle fa fa-pause fa-lg" id="audio2"></div>
 					<div class="time">
 						<span class="current">1:25</span> / <span class="total">5:25</span>
 					</div>
-					<div class="volume"><i class="fa-icon-volume-up fa-icon-medium"></i><div class="vol-slider"></div></div>
+					<div class="volume"><i class="fa fa-volume-up fa-medium"></i><div class="vol-slider"></div></div>
 				</div>
 			</div>
 
 			<div class="player" id="audio3">
 				<div class="top">
-					<div class="toggle-play" id="audio3"><i class="fa-icon-play fa-icon-white fa-icon-large"></i></div>
+					<div class="toggle-play" id="audio3"><i class="fa fa-play fa-white fa-lg"></i></div>
 					<div class="title">Vittoria</div>
 					<div style="clear:both"></div>
 				</div>
 				<div class="time-slider"></div>
 				<div class="bottom">
-					<div class="play-toggle fa-icon-pause fa-icon-large" id="audio3"></div>
+					<div class="play-toggle fa fa-pause fa-lg" id="audio3"></div>
 					<div class="time">
 						<span class="current">1:25</span> / <span class="total">5:25</span>
 					</div>
-					<div class="volume"><i class="fa-icon-volume-up fa-icon-medium"></i><div class="vol-slider"></div></div>
+					<div class="volume"><i class="fa fa-volume-up fa-medium"></i><div class="vol-slider"></div></div>
 				</div>
 			</div>
 
 			<div class="player" id="audio4">
 				<div class="top">
-					<div class="toggle-play" id="audio4"><i class="fa-icon-play fa-icon-white fa-icon-large"></i></div>
+					<div class="toggle-play" id="audio4"><i class="fa fa-play fa-white fa-lg"></i></div>
 					<div class="title">Autumn Leaves</div>
 					<div style="clear:both"></div>
 				</div>
 				<div class="time-slider"></div>
 				<div class="bottom">
-					<div class="play-toggle fa-icon-pause fa-icon-large" id="audio4"></div>
+					<div class="play-toggle fa fa-pause fa-lg" id="audio4"></div>
 					<div class="time">
 						<span class="current">1:25</span> / <span class="total">5:25</span>
 					</div>
-					<div class="volume"><i class="fa-icon-volume-up fa-icon-medium"></i><div class="vol-slider"></div></div>
+					<div class="volume"><i class="fa fa-volume-up fa-medium"></i><div class="vol-slider"></div></div>
 				</div>
 			</div>
 
 			<div class="player" id="audio5">
 				<div class="top">
-					<div class="toggle-play" id="audio5"><i class="fa-icon-play fa-icon-white fa-icon-large"></i></div>
+					<div class="toggle-play" id="audio5"><i class="fa fa-play fa-white fa-lg"></i></div>
 					<div class="title">Misty</div>
 					<div style="clear:both"></div>
 				</div>
 				<div class="time-slider"></div>
 				<div class="bottom">
-					<div class="play-toggle fa-icon-pause fa-icon-large" id="audio5"></div>
+					<div class="play-toggle fa fa-pause fa-lg" id="audio5"></div>
 					<div class="time">
 						<span class="current">1:25</span> / <span class="total">5:25</span>
 					</div>
-					<div class="volume"><i class="fa-icon-volume-up fa-icon-medium"></i><div class="vol-slider"></div></div>
+					<div class="volume"><i class="fa fa-volume-up fa-medium"></i><div class="vol-slider"></div></div>
 				</div>
 			</div>
 
@@ -162,7 +162,7 @@ Music | H&O Music Academy
 			color: #ed5a3a;
 		}
 
-		.fa-icon-medium {
+		.fa-medium {
 			float: left;
 			color: white;
 			margin-left: 20px;

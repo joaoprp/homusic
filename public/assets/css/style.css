@@ -486,7 +486,7 @@ PARALLAX EFFECTS...........................1474
 			font-family:  'Open Sans','Roboto', sans-serif;
 		}
 		
-		.fa-icon-xxlarlge {
+		.fa-xxlarlge {
 			font-size:140px;
 		}
 		
@@ -745,7 +745,7 @@ PARALLAX EFFECTS...........................1474
 		white-space:normal;
 	}
 
-	i.fa-icon-large{
+	i.fa-lg{
 		font-size:340%;
 	}
 	.label{
@@ -1475,7 +1475,7 @@ PARALLAX EFFECTS...........................1474
 		font-weight:400;
 	}
 	
-	.btn .fa-icon-large{
+	.btn .fa-lg{
 		margin:0px 10px 10px 0px;
 		font-size:130%;
 		
@@ -1691,12 +1691,13 @@ PARALLAX EFFECTS...........................1474
 				
 				#main-nav select {
 				display: inline-block;
-				float:left;
+				float:right;
 				width:50%;
 				-webkit-border-radius: 1px;
 				-moz-border-radius: 1px;
 				border-radius: 1px;
 				margin-top:5px;
+				margin-right: 20px;
 				}
 				
 				.nav-collapse {
@@ -1879,6 +1880,16 @@ section.internal .circle {
 	margin:auto;
 }
 
+@media (max-width: 540px) {
+	.section-3 .sub-container {
+		width: 140px;		
+	}
+
+	.section-3 .sub-container .circle {
+		margin-bottom: 10px;
+	}
+}
+
 .dark-blue {
 	background: #1b2639;
 }
@@ -1901,6 +1912,7 @@ section.internal .circle {
 	width:150px;
 	left:0px;
 	top:0px;
+	position: inherit;
 }
 
 .circle .lessons-circle {
@@ -1995,18 +2007,18 @@ section.internal .circle {
 	float:left;
 }
 
-.player .top .toggle-play .fa-icon-large {
-	font-size: 150%;
+.player .top .toggle-play .fa-lg {
+	font-size: 200%;
 	float: left;
-	margin-top: 10px;
+	margin-top: 14px;
 	margin-left: 14px;
 	color: white;
 }
 
-.player .bottom .play-toggle.fa-icon-large {
-	font-size: 150%;
+.player .bottom .play-toggle.fa-lg {
+	font-size: 200%;
 	float: left;
-	margin-top: 10px;
+	margin-top: 15px;
 	margin-left: 14px;
 	color: white;
 	font-weight: normal;
@@ -2076,6 +2088,30 @@ section.internal .circle {
 	width: 570px;
 }
 
+@media (max-width: 767px) {
+	#team-section .container {
+		width: 380px;
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.teachers-section div.row {
+		width: auto;
+	}
+
+	.teachers-section div.row .left {
+		margin: auto;
+		float: inherit;
+		margin-bottom: 20px;
+	}
+
+	.teachers-section div.row .right {
+		width: 90%;
+		margin: auto;
+		float: inherit;
+	}
+}
+
 @media (min-width: 1200px) {
 	.container {
 		width:960px;
@@ -2132,6 +2168,31 @@ section.internal .circle {
 .bg-footer-blue div {
 	width: 480px;
 	margin:auto;
+}
+
+@media (max-width: 767px) {
+	.bg-footer-blue div {
+		width: auto;
+		display:block;
+		text-align:center;
+		padding-bottom: 5px;
+	}
+
+	.bg-footer-blue span {
+		float: inherit!important;
+		display: block;
+		width: auto;
+		margin-top: 0px!important;
+		padding-top: 10px;
+		padding-bottom: 5px;
+	}
+
+	.bg-footer-blue .social {
+		float: inherit!important;
+		width: 42.516px;
+		height: 20px;
+		margin: auto!important;
+	}
 }
 
 .bg-footer-blue span {
@@ -2363,4 +2424,67 @@ a.button {
 
 .dropdown-item {
 	position: relative;
+}
+
+.disabled {
+	pointer-events: none;
+	cursor: default;
+}
+
+.address-data {
+	position:relative;
+	z-index:1;
+	left:20%;
+	top:30px;
+	height:800px;
+	width:300px;
+}
+
+.address-data .page-header h4 {
+	width:70%;
+	background-size:100%;
+	display:inline-block;
+}
+
+@media (min-width: 768px ) {
+	.address-data .page-header {
+		background: #1b2639;
+	}
+
+	.address-data .page-header h4 {
+		color: #ed5a3a;
+	}
+
+	.address-data .content-address {
+		background:#ed5a3a;
+		padding:30px;
+		color: #e2daca;
+	}
+}
+
+
+@media (max-width: 767px) {
+	.address-data {
+		top:0;
+		left:0;
+		background: #e2daca;
+		width: 100%;
+		height: 100%;
+	}
+
+	.address-data .content-address {
+		padding:30px;
+	}
+
+	#map {
+		display: none!important;
+	}
+
+	.main-container {
+		width: auto;
+	}
+}
+
+.main-container {
+	width:950px;
 }

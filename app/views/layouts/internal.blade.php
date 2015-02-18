@@ -13,7 +13,7 @@
 <!-- !important THIS STYLE CSS ON BOTTOM OF STYLEs LIST-->
 <link href="/assets/css/style.css" rel="stylesheet">
 <!-- !important THIS STYLE CSS ON BOTTOM OF STYLEs LIST-->
-<link href="/assets/css/font-awesome.min.css" rel="stylesheet"> 
+<link href="/assets/css/font-awesome.css" rel="stylesheet"> 
 <link href="/assets/css/prettyPhoto.css" rel="stylesheet" type="text/css" />
 <link href="/assets/js/google-code-prettify/prettify.css" rel="stylesheet">
 <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
@@ -62,7 +62,7 @@
           <div id="main-nav" class="scroller-spy">
             <nav class="nav-collapse collapse" >
               <ul class="nav" id="nav">
-                <li class="active"><a href="#header-section">Home</a> </li>
+                <li class="active"><a href="/">Home</a> </li>
 				<li class="dropdown-item">
 					<a href="/schedules">Calendar</a>
 					<ul class="dropdown-menu top">
@@ -121,8 +121,8 @@
 			  </div>
 
               <ul class="social" style="border-color:white!important;">
-		      	<li><a href="https://www.facebook.com/homusicacademy" target="_blank"><i class="fa-icon-facebook"></i></a></li>
-		      	<li><a href="https://twitter.com/HOMusicAcademy" target="_blank"><i class="fa-icon-twitter"></i></a></li>
+		      	<li><a href="https://www.facebook.com/homusicacademy" target="_blank"><i class="fa fa-facebook"></i></a></li>
+		      	<li><a href="https://twitter.com/HOMusicAcademy" target="_blank"><i class="fa fa-twitter"></i></a></li>
 		    </ul>
             </nav>
 			
@@ -154,8 +154,8 @@
 		<div>
 			<span>Copyright &copy; 2014 H&O Music Academy. All rights reserved</span>
 			<ul class="social">
-		      	<li><a href="https://www.facebook.com/homusicacademy" target="_blank"><i class="fa-icon-facebook"></i></a></li>
-		      	<li><a href="https://twitter.com/HOMusicAcademy" target="_blank"><i class="fa-icon-twitter"></i></a></li>
+		      	<li><a href="https://www.facebook.com/homusicacademy" target="_blank"><i class="fa fa-facebook"></i></a></li>
+		      	<li><a href="https://twitter.com/HOMusicAcademy" target="_blank"><i class="fa fa-twitter"></i></a></li>
 		    </ul>
 		</div>
 		<div style="clear:both"></div>

@@ -11,7 +11,7 @@ Book | H&O Music Academy
 		</div>
 
 		<div class="container">
-			<h4 class="text-center"><i class="fa-icon-calendar"></i> H & O Music Academy Online Scheduler</h4>
+			<h4 class="text-center"><i class="fa fa-calendar"></i> H & O Music Academy Online Scheduler</h4>
 
 			<dl>
 				<span class="text-center" style="display:block"><b>Class:</b> <span style="color:#ed5a3a;font-style:italic">{{ $className }}</span>

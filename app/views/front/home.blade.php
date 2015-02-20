@@ -29,7 +29,7 @@ H&O Music Academy
 					<img u="image" src2="/assets/img/slides/slide-3.png" />
 				</div>
 			</div>
-			<div u="navigator" class="jssorb21" style="position: absolute; bottom: 100px; left: 6px;">
+			<div u="navigator" class="jssorb21" style="position: absolute; bottom: 0; left: 6px;">
                 <!-- bullet navigator item prototype -->
                 <div u="prototype" style="POSITION: absolute; WIDTH: 22px; HEIGHT: 22px; text-align:center; line-height:19px; color:White; font-size:12px;"></div>
             </div>

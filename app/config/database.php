@@ -54,7 +54,7 @@ return array(
 
 		'mysql' => array(
 			'driver'    => 'mysql',
-			'host'      => 'localhost',
+			'host'      => 'p3plcpnl0684.prod.phx3.secureserver.net',
 			'database'  => 'homusic_db',
 			'username'  => 'homusic',
 			'password'  => '9#wH!~seF^v6',

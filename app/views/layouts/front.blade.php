@@ -279,7 +279,7 @@ jQuery(document).ready(function(){
 	//xPosition - Horizontal position of the element
 	//inertia - speed to move relative to vertical scroll. Example: 0.1 is one tenth the speed of scrolling, 2 is twice the speed of scrolling
 	//outerHeight (true/false) - Whether or not jQuery should use it's outerHeight option to determine when a section is in the viewport
-	jQuery('#header-section').parallax("50%", 0.1);
+	// jQuery('#header-section').parallax("50%", 0.1);
 	jQuery('#features-section').parallax("50%", 2);
 	jQuery('#team-section').parallax("50%", 0.1);
 	jQuery('.bg').parallax("50%", 0.3);

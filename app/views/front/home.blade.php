@@ -33,10 +33,7 @@ H&O Music Academy
                 <!-- bullet navigator item prototype -->
                 <div u="prototype" style="POSITION: absolute; WIDTH: 22px; HEIGHT: 22px; text-align:center; line-height:19px; color:White; font-size:12px;"></div>
             </div>
-          <!--   <span u="arrowleft" class="jssora21l" style="width: 55px; height: 55px; top: 123px; left: 8px;">
-            </span>
-            <span u="arrowright" class="jssora21r" style="width: 55px; height: 55px; top: 123px; right: 8px">
-            </span> -->
+
 	</div>
 </header><!-- / HEADER MARKETING SLOGAN container-->
 @stop

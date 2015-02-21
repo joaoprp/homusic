@@ -57,7 +57,7 @@
           <!-- navbar-fixed-top -->
           <div class="navbar-inner" id="navbartop" style="background:#ed5a3a!important;">
               <div class="container main-container"> <a class="pull-left" href="/">
-                      <img src="assets/img/logo.png" alt="Logo" style="margin-right:30px;height:39px!important" />
+                      <img src="assets/img/logo.png" class="logo" alt="Logo" style="margin-right:30px;height:39px!important" />
                       <!--<img src="assets/img/Logo.png" alt="Logo">--></a>
                   <div id="main-nav" class="scroller-spy">
                       <nav class="nav-collapse collapse" >

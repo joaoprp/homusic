@@ -2549,3 +2549,17 @@ a.button {
 .dropdown-submenu:hover ul {
     display: inherit!important;
 }
+
+.logo {
+    margin-left: 20px;
+}
+
+.teacher.row p {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+
+.teacher.row {
+    display: none;
+}

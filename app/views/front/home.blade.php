@@ -33,7 +33,7 @@ H&O Music Academy
                 <!-- bullet navigator item prototype -->
                 <div u="prototype" style="POSITION: absolute; WIDTH: 22px; HEIGHT: 22px; text-align:center; line-height:19px; color:White; font-size:12px;"></div>
             </div>
-
+          
 	</div>
 </header><!-- / HEADER MARKETING SLOGAN container-->
 @stop
@@ -126,8 +126,8 @@ H&O Music Academy
 			<div class="left">
 				<img src="assets/img/teachers/amy-desc.png" />
 				<span>
-					<a href="#"><img src="assets/img/email.png" /></a>
-					<a href="#"><img src="assets/img/calendar.png" /></a>
+					<a href="mailto:homusiclessons@gmail.com"><img src="assets/img/email.png" /></a>
+					<a href="#" class="calendar"><img src="assets/img/calendar.png" /></a>
 				</span>
 			</div>
 			<div class="right">
@@ -135,6 +135,10 @@ H&O Music Academy
 					</p>
 			</div>
 		</div>
+
+    <div class="teacher row">
+        <p class="text-center"><span class="text-orange">Tuesday</span>  4:00-9:00</p>
+    </div>
 </section>
 
 <section class="teachers-section" id="teacher-2" style="display:none">
@@ -146,8 +150,8 @@ H&O Music Academy
 			<div class="left">
 				<img src="assets/img/teachers/frankie-desc.png" />
 				<span>
-					<a href="#"><img src="assets/img/email.png" /></a>
-					<a href="#"><img src="assets/img/calendar.png" /></a>
+					<a href="mailto:homusiclessons@gmail.com"><img src="assets/img/email.png" /></a>
+					<a href="#" class="calendar"><img src="assets/img/calendar.png" /></a>
 				</span>
 			</div>
 			<div class="right">
@@ -155,6 +159,17 @@ H&O Music Academy
 					</p>
 			</div>
 		</div>
+
+    <div class="teacher row">
+        <p class="text-center"><span class="text-orange">Monday</span>  3:00-9:00</p>
+        <p class="text-center"><span class="text-orange">Tuesday</span>  3:00-9:00</p>
+        <p class="text-center"><span class="text-orange">Wednesday</span>  3:00-9:00</p>
+        <p class="text-center"><span class="text-orange">Thursday</span>  2:00-9:00</p>
+        <p class="text-center"><span class="text-orange">Friday</span> 3:00-8:00</p>
+        <p class="text-center"><span class="text-orange">Saturday</span> 9:00-12:00 & 1:30-5:00</p>
+
+        <a class="text-center text-orange" href="/schedules" style="display:block">Book Now!</a>
+    </div>
 </section>
 
 <section class="teachers-section" id="teacher-3" style="display:none">
@@ -166,8 +181,8 @@ H&O Music Academy
 			<div class="left">
 				<img src="assets/img/teachers/freddy-desc.png" />
 				<span>
-					<a href="#"><img src="assets/img/email.png" /></a>
-					<a href="#"><img src="assets/img/calendar.png" /></a>
+					<a href="mailto:homusiclessons@gmail.com"><img src="assets/img/email.png" /></a>
+					<a href="#" class="calendar"><img src="assets/img/calendar.png" /></a>
 				</span>
 			</div>
 			<div class="right">
@@ -175,6 +190,16 @@ H&O Music Academy
 					</p>
 			</div>
 		</div>
+
+        <div class="teacher row">
+            <p class="text-center"><span class="text-orange">Monday</span>  4:30-8:00</p>
+            <p class="text-center"><span class="text-orange">Tuesday</span>  4:00-9:00</p>
+            <p class="text-center"><span class="text-orange">Wednesday</span>  4:00-9:00</p>
+            <p class="text-center"><span class="text-orange">Thursday</span>  4:00-9:00</p>
+            <p class="text-center"><span class="text-orange">Friday</span> 4:00-9:00</p>
+
+            <a class="text-center text-orange" href="/schedules" style="display:block">Book Now!</a>
+        </div>
 </section>
 
 <section class="teachers-section" id="teacher-4" style="display:none">
@@ -186,8 +211,8 @@ H&O Music Academy
 			<div class="left">
 				<img src="assets/img/teachers/graeme-desc.png" />
 				<span>
-					<a href="#"><img src="assets/img/email.png" /></a>
-					<a href="#"><img src="assets/img/calendar.png" /></a>
+					<a href="mailto:homusiclessons@gmail.com"><img src="assets/img/email.png" /></a>
+					<a href="#" class="calendar"><img src="assets/img/calendar.png" /></a>
 				</span>
 			</div>
 			<div class="right">
@@ -195,6 +220,13 @@ H&O Music Academy
 					</p>
 			</div>
 		</div>
+
+    <div class="teacher row">
+        <p class="text-center"><span class="text-orange">Monday</span>  6:00-9:00</p>
+        <p class="text-center"><span class="text-orange">Tuesday</span>  9:00-9:00</p>
+
+        <a class="text-center text-orange" href="/schedules" style="display:block">Book Now!</a>
+    </div>
 </section>
 
 <section class="teachers-section" id="teacher-5" style="display:none">
@@ -206,8 +238,8 @@ H&O Music Academy
 			<div class="left">
 				<img src="assets/img/teachers/neola-desc.png" />
 				<span>
-					<a href="#"><img src="assets/img/email.png" /></a>
-					<a href="#"><img src="assets/img/calendar.png" /></a>
+					<a href="mailto:homusiclessons@gmail.com"><img src="assets/img/email.png" /></a>
+					<a href="#" class="calendar"><img src="assets/img/calendar.png" /></a>
 				</span>
 			</div>
 			<div class="right">
@@ -215,6 +247,15 @@ H&O Music Academy
 					</p>
 			</div>
 		</div>
+
+    <div class="teacher row">
+        <p class="text-center"><span class="text-orange">Monday</span>  2:00-9:00</p>
+        <p class="text-center"><span class="text-orange">Wednesday</span>  2:00-9:00</p>
+        <p class="text-center"><span class="text-orange">Saturday</span>  10:00-4:00</p>
+        <p class="text-center"><span class="text-orange">Sunday</span> 10:00-4:00</p>
+
+        <a class="text-center text-orange" href="/schedules" style="display:block">Book Now!</a>
+    </div>
 </section>
 
 <section class="teachers-section" id="teacher-6" style="display:none">
@@ -226,8 +267,8 @@ H&O Music Academy
 			<div class="left">
 				<img src="assets/img/teachers/tayler-desc.png" />
 				<span>
-					<a href="#"><img src="assets/img/email.png" /></a>
-					<a href="#"><img src="assets/img/calendar.png" /></a>
+					<a href="mailto:homusiclessons@gmail.com"><img src="assets/img/email.png" /></a>
+					<a href="#" class="calendar"><img src="assets/img/calendar.png" /></a>
 				</span>
 			</div>
 			<div class="right">
@@ -235,6 +276,14 @@ H&O Music Academy
 					</p>
 			</div>
 		</div>
+
+    <div class="teacher row">
+        <p class="text-center"><span class="text-orange">Tuesday</span>  4:00-9:00</p>
+        <p class="text-center"><span class="text-orange">Wednesday</span>  4:00-9:00</p>
+        <p class="text-center"><span class="text-orange">Thursday</span>  4:00-9:00</p>
+
+        <a class="text-center text-orange" href="/schedules" style="display:block">Book Now!</a>
+    </div>
 </section>
 	
 
@@ -495,5 +544,29 @@ H&O Music Academy
 			$('#teacher-6').slideToggle();
 			$('body').scrollTo('#teacher-6');
 		});
+
+        $("#teacher-1 .calendar").click(function() {
+            $('#teacher-1').find('.teacher.row').toggle();
+        });
+
+        $("#teacher-2 .calendar").click(function() {
+            $('#teacher-2').find('.teacher.row').toggle();
+        });
+
+        $("#teacher-3 .calendar").click(function() {
+            $('#teacher-3').find('.teacher.row').toggle();
+        });
+
+        $("#teacher-4 .calendar").click(function() {
+            $('#teacher-4').find('.teacher.row').toggle();
+        });
+
+        $("#teacher-5 .calendar").click(function() {
+            $('#teacher-5').find('.teacher.row').toggle();
+        });
+
+        $("#teacher-6 .calendar").click(function() {
+            $('#teacher-6').find('.teacher.row').toggle();
+        });
 	</script>
 @stop

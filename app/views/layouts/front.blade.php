@@ -144,9 +144,9 @@
 					<a href="/#portfolio-section">Music Lessons</a>
 					<ul class="dropdown-menu top">
 	            		<li class="first"><a href="/private-lessons">Private Lessons</a></li>
-	            		<li class="last">
+	            		<li class="last dropdown-submenu">
                             <a href="/group-lessons">Group Lessons</a>
-                            <ul class="dropdown-submenu">
+                            <ul class="dropdown-menu">
                                 <li class="first"><a href="/group-lessons#toddlers">MUSIC FOR TODDLERS</a></li>
                                 <li><a href="/group-lessons#intropiano">INTRO TO PIANO/GUITAR</a></li>
                                 <li><a href="/group-lessons#intropiano8">INTRO TO PIANO, GUITAR, DRUMS</a></li>

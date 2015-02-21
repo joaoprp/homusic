@@ -2524,6 +2524,13 @@ a.button {
 
 .responsive {
     right: 30px!important;
+    display: block;
+    position: fixed;
+    top: 50px;
+    right: 10px!important;
+    height: 100%;
+    overflow: auto;
+}
 }
 
 @media (min-width:980px) {

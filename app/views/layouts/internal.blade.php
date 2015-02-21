@@ -62,7 +62,7 @@
                   <div id="main-nav" class="scroller-spy">
                       <nav class="nav-collapse collapse" >
                           <ul class="nav" id="nav">
-                              <li><a href="#header-section">Home</a> </li>
+                              <li><a href="/#header-section">Home</a> </li>
                               <li class="dropdown-item">
                                   <a href="/schedules">Calendar</a>
                               </li>

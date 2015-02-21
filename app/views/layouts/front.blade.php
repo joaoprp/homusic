@@ -126,7 +126,7 @@
           <div id="main-nav" class="scroller-spy">
             <nav class="nav-collapse collapse" >
               <ul class="nav" id="nav">
-                <li class="active"><a href="#header-section">Home</a> </li>
+                <li><a href="#header-section">Home</a> </li>
 				<li class="dropdown-item">
 					<a href="/schedules">Calendar</a>
 				</li>
@@ -144,7 +144,18 @@
 					<a href="/#portfolio-section">Music Lessons</a>
 					<ul class="dropdown-menu top">
 	            		<li class="first"><a href="/private-lessons">Private Lessons</a></li>
-	            		<li class="last"><a href="/group-lessons">Group Lessons</a></li>
+	            		<li class="last">
+                            <a href="/group-lessons">Group Lessons</a>
+                            <ul class="dropdown-submenu">
+                                <li class="first"><a href="/group-lessons#toddlers">MUSIC FOR TODDLERS</a></li>
+                                <li><a href="/group-lessons#intropiano">INTRO TO PIANO/GUITAR</a></li>
+                                <li><a href="/group-lessons#intropiano8">INTRO TO PIANO, GUITAR, DRUMS</a></li>
+                                <li><a href="/group-lessons#intropiano15">INTRO TO PIANO/GUITAR 15+</a></li>
+                                <li><a href="/group-lessons#poprock">POP/ROCK/BAND STUDIES</a></li>
+                                <li><a href="/group-lessons#latiinflamenco">LATIN/FLAMENCO GUITAR STUDIES</a></li>
+                                <li class="last"><a href="/group-lessons#percussion">PERCUSSION GROUP LESSONS</a></li>
+                            </ul>
+                        </li>
 	            	</ul>
 				</li>
 				<li><a href="/faq">FAQ</a> </li>

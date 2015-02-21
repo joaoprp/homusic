@@ -67,7 +67,7 @@
                                   <a href="/schedules">Calendar</a>
                               </li>
                               <li class="dropdown-item">
-                                  <a href="#features-section">Academy</a>
+                                  <a href="/#features-section">Academy</a>
                                   <ul class="dropdown-menu top">
                                       <li class="first"><a href="/#features-section">About Us</a></li>
                                       <li class=""><a href="/#team-section">Team</a></li>
@@ -113,7 +113,7 @@
                               </li>
                               <li><a href="/faq">FAQ</a> </li>
                               <li><a href="/articles">News</a> </li>
-                              <li><a href="#contact-section">Contact</a> </li>
+                              <li><a href="/#contact-section">Contact</a> </li>
                           </ul>
                           <div style="float:left;position:relative;">
                               @if (\Auth::user())

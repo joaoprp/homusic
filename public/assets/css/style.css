@@ -43,7 +43,7 @@ PARALLAX EFFECTS...........................1474
 		min-height: 100%;
 		min-width: 100%;
 		width: 100%;
-		overflow:hidden;
+		/*overflow:hidden;*/
 	}
 	p{
 		font-family: "Open Sans",sans-serif;

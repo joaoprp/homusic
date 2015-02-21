@@ -20,38 +20,31 @@ responsive menu
 ***************************************************/
 
 jQuery(function (jQuery) {
-    jQuery("#main-nav").append("<select/>");
-    jQuery("<option />", {
-        "selected": "selected",
-        "value": "",
-        "text": "Choose section"
-    }).appendTo("#main-nav select");
-    //new dropdown menu
-    jQuery("#main-nav a").each(function () {
+
+    jQuery("#main-nav").append("<div class='pull-right menu-responsive'><i class='fa fa-bars'></i><ul class='responsive dropdown-menu'></ul></div>");
+
+    jQuery("#main-nav a").each(function(){
         var el = jQuery(this);
-        var perfix = '';
+        var prefix = '';
         switch (el.parents().length) {
             case (11):
-                perfix = '-';
+                prefix = '-';
                 break;
             case (13):
-                perfix = '--';
+                prefix = '--';
                 break;
             default:
-                perfix = '';
-                break;
-
+                prefix = '';
+                break
         }
-        jQuery("<option />", {
-            "value": el.attr("href"),
-            "text": perfix + el.text()
-        }).appendTo("#main-nav select");
+        jQuery("<li></li>", {
+            html: "<a href='"+el.attr("href")+"'>"+prefix + el.text()+"</a>"
+        }).appendTo("#main-nav div .responsive");
     });
 
-    jQuery('#main-nav select').change(function () {
-
-        window.location.href = this.value;
-
+    jQuery(".menu-responsive").click(function(){
+        jQuery(this).toggleClass('active');
+        jQuery(".responsive").toggle();
     });
 });
 

@@ -278,8 +278,8 @@ PARALLAX EFFECTS...........................1474
 				box-shadow: none;
 				background-color: rgba(0, 0, 0, 0.3);
 				background: transparent;
-				padding-top:10px;
-				padding-bottom:10px;
+				/*padding-top:10px;*/
+				/*padding-bottom:10px;*/
 				border-bottom: none;
 				-moz-transition: padding 0.5s ease-in-out;
 				-o-transition: padding 0.5s ease-in-out;
@@ -289,6 +289,25 @@ PARALLAX EFFECTS...........................1474
 				z-index:1030;
 				filter: none;
 			}
+
+            .navbar-fixed-top .navbar-inner img,  .navbar-static-top .navbar-inner img {
+                padding-bottom: 10px;
+                padding-top: 10px;
+            }
+
+            .navbar-fixed-top .navbar-inner #main-nav .social,  .navbar-static-top .navbar-inner #main-nav .social {
+                margin-top: 10px;
+            }
+
+            .navbar-fixed-top .navbar-inner #main-nav div,  .navbar-static-top .navbar-inner #main-nav div {
+                margin-top: 7px;
+            }
+
+            .navbar-fixed-top .navbar-inner #main-nav .nav li a,  .navbar-static-top .navbar-inner #main-nav .nav li a {
+                padding-top: 15px;
+                padding-bottom: 15px;
+            }
+
 			
 			.navbar-static-top{
 				position:relative;
@@ -330,10 +349,11 @@ PARALLAX EFFECTS...........................1474
 					color: #fff;
 					text-decoration: none;
 					/*background-color: #f89406;*/
-					background: url('/assets/img/menu-selected.png') no-repeat center bottom;
-					-webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, 0.125);
-					-moz-box-shadow: 0 3px 8px rgba(0, 0, 0, 0.125);
-					box-shadow: 0 3px 8px rgba(0, 0, 0, 0.125);
+					/*background: url('/assets/img/menu-selected.png') no-repeat center bottom;*/
+                    background: #2a3c5c;
+					/*-webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, 0.125);*/
+					/*-moz-box-shadow: 0 3px 8px rgba(0, 0, 0, 0.125);*/
+					/*box-shadow: 0 3px 8px rgba(0, 0, 0, 0.125);*/
 					padding: 5px 15px 5px;
 					margin-top:5px;
 					}
@@ -342,12 +362,13 @@ PARALLAX EFFECTS...........................1474
 					color: #fff;
 					text-decoration: none;
 					/*background-color: #f89406;*/
-					background: url('/assets/img/menu-selected.png') no-repeat center bottom;©
-					-webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, 0.125);
-					-moz-box-shadow: 0 3px 8px rgba(0, 0, 0, 0.125);
-					box-shadow: 0 3px 8px rgba(0, 0, 0, 0.125);
-					padding: 8px 15px 8px;
-					margin-top:3px;
+					/*background: url('/assets/img/menu-selected.png') no-repeat center bottom;*/
+                     background: #2a3c5c url('/assets/img/caret-bg.png') no-repeat top center;
+					/*-webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, 0.125);*/
+					/*-moz-box-shadow: 0 3px 8px rgba(0, 0, 0, 0.125);*/
+					/*box-shadow: 0 3px 8px rgba(0, 0, 0, 0.125);*/
+					padding: 5px 15px 5px;
+					margin-top:5px;
 					}
 					
 					.navbar .brand {
@@ -2285,13 +2306,13 @@ section.internal .circle {
 }
 
 .dropdown-menu {
-	background: #2a3c5c url('/assets/img/caret-bg.png') no-repeat top center;
+	background: #2a3c5c;
 	padding: 15px;
 	top: 94%;
 }
 
 .login.dropdown-menu {
-	background: #2a3c5c url('/assets/img/caret-bg.png') no-repeat top center;
+	background: #2a3c5c;
 	padding: 15px;
 	top: 94%;
 	left:-61px;
@@ -2487,4 +2508,26 @@ a.button {
 
 .main-container {
 	width:950px;
+}
+
+.menu-responsive {
+    margin-right: 20px;
+    padding: 10px 20px;
+    background: #1b2639;
+    color:#e2daca;
+}
+
+.menu-responsive.active {
+    background: #e2daca;
+    color: #1b2639;
+}
+
+.responsive {
+    right: 30px!important;
+}
+
+@media (min-width:980px) {
+    .menu-responsive {
+        display: none;
+    }
 }

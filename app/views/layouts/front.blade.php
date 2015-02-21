@@ -129,9 +129,6 @@
                 <li class="active"><a href="#header-section">Home</a> </li>
 				<li class="dropdown-item">
 					<a href="/schedules">Calendar</a>
-					<ul class="dropdown-menu top">
-	            		<li class="first last"><a href="/#team-section">Teachers</a></li>
-	            	</ul>
 				</li>
 				<li class="dropdown-item">
 					<a href="#features-section">Academy</a>

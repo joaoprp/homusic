@@ -8,7 +8,7 @@ H&O Music Academy
 <!-- HEADER MARKETING SLOGAN-->
 <header>
 	<div id="slider1_container" style="display: none; position: relative; margin: 0 auto;
-        top: 0px; left: 0px; width: 1300px; height: 600px; overflow: hidden;">
+        top: 0px; left: 0px; width: 1300px; height: 440px; overflow: hidden;">
             <!-- Loading Screen -->
             <div u="loading" style="position: absolute; top: 0px; left: 0px;">
                 <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block;

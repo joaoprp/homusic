@@ -440,11 +440,20 @@ H&O Music Academy
 					<h3 class="text-orange">
 						NEWS
 					</h3>
-
-					<p>&nbsp;</p>
-
-					<a href="/articles" class="button" style="display: block;width: 80px!important;padding: 5px 10px!important;color:white!important;margin:auto">MORE NEWS</a>
 		</div>
+
+        @foreach($articles as $article)
+            <h4>{{$article->title}}</h4>
+            <a class="text-white" href="https://www.facebook.com/sharer/sharer.php?u={{ \URL::to('/article/'.$article->slug) }}" target="_blank"><i class="fa fa-facebook"></i></a>
+            <a class="text-white" href="https://twitter.com/home?status={{ \URL::to('/article/'.$article->slug) }}" target="_blank"><i class="fa fa-twitter"></i></a>
+            <span class="text-orange"><i class="fa fa-clock-o"></i> <span class="article-date">{{$article->created_at}}</span></span>
+
+            <p>{{ str_limit(strip_tags($article->body),400) }} <a href="/article/{{$article->slug}}" class="text-orange">Read More <i class="fa fa-plus"></i></a></p>
+
+
+        @endforeach
+
+        <a href="/articles" class="button" style="display: block;width: 80px!important;padding: 5px 10px!important;color:white!important;margin:auto">MORE NEWS</a>
 	</div>	
 	</div>
 </div>
@@ -569,4 +578,11 @@ H&O Music Academy
             $('#teacher-6').find('.teacher.row').toggle();
         });
 	</script>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.9.0/moment.js"></script>
+    <script>
+        $('.article-date').each(function(){
+            $(this).text(moment($(this).text()).fromNow());
+        })
+    </script>
 @stop

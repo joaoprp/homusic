@@ -20,4 +20,10 @@ class HomeController extends BaseController {
 		return View::make('hello');
 	}
 
+    public function index()
+    {
+        $articles = Pingpong\Admin\Entities\Article::where('type','=','post')->orderBy('id','desc')->take(2)->get();
+        return View::make('front.home')->with(compact('articles'));
+    }
+
 }

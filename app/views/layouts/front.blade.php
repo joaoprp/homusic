@@ -143,7 +143,24 @@
 				<li class="dropdown-item">
 					<a href="/#portfolio-section">Music Lessons</a>
 					<ul class="dropdown-menu top">
-	            		<li class="first"><a href="/private-lessons">Private Lessons</a></li>
+	            		<li class="first dropdown-submenu">
+                            <a href="/private-lessons">Private Lessons</a>
+                            <ul class="dropdown-menu">
+                                <li class="first"><a href="/group-lessons#piano">PIANO LESSONS</a></li>
+                                <li><a href="/group-lessons#voice">VOICE</a></li>
+                                <li><a href="/group-lessons#guitar">GUITAR</a></li>
+                                <li><a href="/group-lessons#violin">VIOLIN/VIOLA</a></li>
+                                <li><a href="/group-lessons#drums">DRUMS</a></li>
+                                <li><a href="/group-lessons#bassguitar">BASS GUITAR</a></li>
+                                <li class="last"><a href="/group-lessons#ukelele">UKELELE</a></li>
+                                <li class="last"><a href="/group-lessons#mandolin">MANDOLIN</a></li>
+                                <li class="last"><a href="/group-lessons#accordion">ACCORDION</a></li>
+                                <li class="last"><a href="/group-lessons#saxophone">SAXOPHONE</a></li>
+                                <li class="last"><a href="/group-lessons#percussion">PERCUSSION</a></li>
+                                <li class="last"><a href="/group-lessons#theory">MUSIC THEORY</a></li>
+                                <li class="last"><a href="/group-lessons#writing">SONG WRITING</a></li>
+                            </ul>
+                        </li>
 	            		<li class="last dropdown-submenu">
                             <a href="/group-lessons">Group Lessons</a>
                             <ul class="dropdown-menu">

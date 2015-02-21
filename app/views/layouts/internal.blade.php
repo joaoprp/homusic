@@ -79,7 +79,24 @@
                               <li class="dropdown-item">
                                   <a href="/#portfolio-section">Music Lessons</a>
                                   <ul class="dropdown-menu top">
-                                      <li class="first"><a href="/private-lessons">Private Lessons</a></li>
+                                      <li class="first dropdown-submenu">
+                                          <a href="/private-lessons">Private Lessons</a>
+                                          <ul class="dropdown-menu">
+                                              <li class="first"><a href="/group-lessons#piano">PIANO LESSONS</a></li>
+                                              <li><a href="/private-lessons#voice">VOICE</a></li>
+                                              <li><a href="/private-lessons#guitar">GUITAR</a></li>
+                                              <li><a href="/private-lessons#violin">VIOLIN/VIOLA</a></li>
+                                              <li><a href="/private-lessons#drums">DRUMS</a></li>
+                                              <li><a href="/private-lessons#bassguitar">BASS GUITAR</a></li>
+                                              <li><a href="/private-lessons#ukelele">UKELELE</a></li>
+                                              <li><a href="/private-lessons#mandolin">MANDOLIN</a></li>
+                                              <li><a href="/private-lessons#accordion">ACCORDION</a></li>
+                                              <li><a href="/private-lessons#saxophone">SAXOPHONE</a></li>
+                                              <li><a href="/private-lessons#percussion">PERCUSSION</a></li>
+                                              <li><a href="/private-lessons#theory">MUSIC THEORY</a></li>
+                                              <li class="last"><a href="/private-lessons#writing">SONG WRITING</a></li>
+                                          </ul>
+                                      </li>
                                       <li class="last dropdown-submenu">
                                           <a href="/group-lessons">Group Lessons</a>
                                           <ul class="dropdown-menu">

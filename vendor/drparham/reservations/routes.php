@@ -28,6 +28,8 @@ Route::post('/reserveDate',function(){
 		 ->charge([
 		 	'amount' => 2400,
 		 	'currency' => 'cad'
+	 	],[
+	 		'email' => $user->email
 	 	]);
 
 	$event = array(

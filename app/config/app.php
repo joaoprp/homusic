@@ -82,6 +82,8 @@ return array(
 
 	'cipher' => MCRYPT_RIJNDAEL_128,
 
+	'stripe_publishable_key' => 'pk_test_fIDaVr1KU3L3QCYIAOX0KMH4',
+
 	/*
 	|--------------------------------------------------------------------------
 	| Autoloaded Service Providers
@@ -126,6 +128,8 @@ return array(
 		'Pingpong\Admin\AdminServiceProvider',
 
 		'Drparham\Reservations\ReservationsServiceProvider',
+
+		'Laravel\Cashier\CashierServiceProvider',
 	),
 
 	/*

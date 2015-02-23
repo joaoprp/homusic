@@ -24,6 +24,8 @@ $app = new Illuminate\Foundation\Application;
 |
 */
 
+User::setStripeKey('sk_test_7t8vrknjlkal1MVbCYVjQsCx');
+
 $env = $app->detectEnvironment(array(
 
 	'local' => array('homestead'),

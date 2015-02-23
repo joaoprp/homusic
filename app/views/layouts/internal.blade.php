@@ -57,7 +57,7 @@
           <!-- navbar-fixed-top -->
           <div class="navbar-inner" id="navbartop" style="background:#ed5a3a!important;">
               <div class="container main-container"> <a class="pull-left" href="/">
-                      <img src="assets/img/logo.png" class="logo" alt="Logo" style="margin-right:30px;height:39px!important" />
+                      <img src="/assets/img/logo.png" class="logo" alt="Logo" style="margin-right:30px;height:39px!important" />
                       <!--<img src="assets/img/Logo.png" alt="Logo">--></a>
                   <div id="main-nav" class="scroller-spy">
                       <nav class="nav-collapse collapse" >
@@ -117,9 +117,9 @@
                           </ul>
                           <div style="float:left;position:relative;">
                               @if (\Auth::user())
-                                  <a class="menu-button dropdown-toggle" data-toggle="dropdown" aria-expanded="true">{{ \Auth::user()->name }}</a>
+                                  <a class="menu-button dropdown-toggle" data-toggle="dropdown" aria-expanded="true" style="border-color: white;">{{ \Auth::user()->name }}</a>
                                   <ul class="dropdown-menu login" role="menu">
-                                      <li class="first last"><a href="/logout" style="border-color: white;">Logout</a></li>
+                                      <li class="first last"><a href="/logout">Logout</a></li>
                                   </ul>
                               @else
                                   <a class="menu-button dropdown-toggle" data-toggle="dropdown" aria-expanded="true" style="border-color: white;">login</a>

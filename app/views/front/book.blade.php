@@ -19,13 +19,23 @@ Book | H&O Music Academy
 				<span class="text-center" style="display:block"><b>Class:</b> <span style="color:#ed5a3a;font-style:italic">{{ $formattedDate }}</span>
 			</dl>
 			@if(\Auth::id())
+
+			<form action="charge.php" method="post">
+				
+			</form>
+
 			<form method="POST" action="/reserveDate" class="text-center">
 				<input type="hidden" value="{{ $teacher_id }}" name="teacher_id" />
 				<input type="hidden" value="{{ $date }}" name="date" />
 				<input type="hidden" value="{{ $time }}" name="time" />
 				<input type="hidden" value="{{ \Auth::id() }}" name="user_id" />
 
-				<input type="submit" class="button" value="CONFIRM" />
+				<script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+				      data-key="{{ \Config::get('app.stripe_publishable_key') }}"
+				      data-email="{{ \Auth::user()->email }}"
+				      data-image="/assets/img/logo-big.png"
+				      data-allow-remember-me="false"
+				      data-amount="2400" data-description="One Class Subscription"></script>
 			</form>
 			@else
 				<div class="login-register-box">

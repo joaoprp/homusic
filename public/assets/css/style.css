@@ -1973,7 +1973,7 @@ section.internal .circle {
 .teacher-enclosing {
 	width:150px;
 	float:left;
-	margin-right: 20px;
+	margin-right: 10px;
 	margin-left: 20px;
 }
 
@@ -2573,4 +2573,11 @@ a.button {
 
 .teacher.row {
     display: none;
+}
+
+@media (min-width: 1200px) {
+	.team-area {
+		width: 93%;
+		margin:auto;
+	}
 }

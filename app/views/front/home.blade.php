@@ -47,7 +47,7 @@ H&O Music Academy
 		<div class="row-fluid">
 	<!-- PROJECTS HEADER-->
 			<header class="" >
-				<div class="text-center page-header">
+				<div class="text-center page-header" style="width:350px;margin:auto">
 					<h3 class="">
 						<span><!-- WHITE SPACE-->
 							WHO WE ARE

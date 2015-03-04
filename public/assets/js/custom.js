@@ -23,7 +23,7 @@ jQuery(function (jQuery) {
 
     jQuery("#main-nav").append("<div class='pull-right menu-responsive'><i class='fa fa-bars'></i><ul class='responsive dropdown-menu'></ul></div>");
 
-    jQuery("#main-nav a").each(function(){
+    jQuery("#main-nav .responsive-visible").each(function(){
         var el = jQuery(this);
         var prefix = '';
         switch (el.parents().length) {

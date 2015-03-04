@@ -133,15 +133,15 @@
 				<li class="dropdown-item">
 					<a href="#features-section">Academy</a>
 					<ul class="dropdown-menu top">
-	            		<li class="first"><a href="/#features-section">About Us</a></li>
-	            		<li class=""><a href="/#team-section">Team</a></li>
-	            		<li class=""><a href="/videos">Videos</a></li>
-	            		<li class=""><a href="/audios">Audios</a></li>
-	            		<li class="last"><a href="/gallery">Gallery</a></li>
+	            		<li class="first"><a class="responsive-visible" href="/#features-section">About Us</a></li>
+	            		<li class=""><a class="responsive-visible" href="/#team-section">Team</a></li>
+	            		<li class=""><a class="responsive-visible" href="/videos">Videos</a></li>
+	            		<li class=""><a class="responsive-visible" href="/audios">Audios</a></li>
+	            		<li class="last"><a class="responsive-visible" href="/gallery">Gallery</a></li>
 	            	</ul>
 				</li>
 				<li class="dropdown-item">
-					<a href="/#portfolio-section">Music Lessons</a>
+					<a class="responsive-visible" href="/#portfolio-section">Music Lessons</a>
 					<ul class="dropdown-menu top">
 	            		<li class="first dropdown-submenu">
                             <a href="/private-lessons">Private Lessons</a>
@@ -162,7 +162,7 @@
                             </ul>
                         </li>
 	            		<li class="last dropdown-submenu">
-                            <a href="/group-lessons">Group Lessons</a>
+                            <a class="responsive-visible" href="/group-lessons">Group Lessons</a>
                             <ul class="dropdown-menu">
                                 <li class="first"><a href="/group-lessons#toddlers">MUSIC FOR TODDLERS</a></li>
                                 <li><a href="/group-lessons#intropiano">INTRO TO PIANO/GUITAR</a></li>
@@ -175,9 +175,9 @@
                         </li>
 	            	</ul>
 				</li>
-				<li><a href="/faq">FAQ</a> </li>
-				<li><a href="/articles">News</a> </li>
-				<li><a href="#contact-section">Contact</a> </li>
+				<li><a class="responsive-visible" href="/faq">FAQ</a> </li>
+				<li><a class="responsive-visible" href="/articles">News</a> </li>
+				<li><a class="responsive-visible" href="#contact-section">Contact</a> </li>
               </ul>
               <div style="float:left;position:relative">
               	@if (\Auth::user())              

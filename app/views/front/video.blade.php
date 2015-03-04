@@ -112,6 +112,22 @@ Video | H&O Music Academy
 			margin-bottom: 20px;
 		}
 
+		@media (max-width: 520px) {
+			.span6 {
+				width: auto!important;
+			}
+		}
+
+		@media (max-width: 979px) {
+			.container {
+				max-width:450px;
+				margin:auto;	
+			}
+			.span6 {
+				margin-left: 0;
+			}
+		}
+
 		.container hr {
 			border-style: solid;
 			border-color: #ed5a3a;

@@ -291,7 +291,7 @@ H&O Music Academy
 <section class="" id="team-section">
 		<!-- TEAM HEADER-->
 	<div class="container dark-blue">
-		<div class="row">
+		<div class="row" style="width:375px;margin:auto">
 			<div class="text-center page-header blue">
 				<h3 class="text-orange">THE TEAM</h3>
 			</div>
@@ -376,13 +376,13 @@ H&O Music Academy
 
 	<div class="container">
 		
-		<div class="row" style="width:380px;margin:auto">
+		<div class="row" style="width:375px;margin:auto">
 			<div class="teacher-enclosing" style="margin-left:0px!important">
 				<a href="/private-lessons" class="span4 circle">
 					<img class="lessons-circle" src="/assets/img/private-lessons.png" />
 					<span class="plus-sign">+</span>
 				</a>
-				<span style="color:white;margin-left:36px;margin-top:165px;font-size:16px">Private Lessons</span>
+				<span style="color:white;margin-left:26px;margin-top:165px;font-size:16px">Private Lessons</span>
 			</div>
 
 			<div class="teacher-enclosing" style="margin-right:0px!important">
@@ -390,7 +390,7 @@ H&O Music Academy
 					<img class="lessons-circle" src="/assets/img/group-lessons.png" />
 					<span class="plus-sign">+</span>
 				</a>
-				<span style="color:white;margin-left:36px;margin-top:165px;font-size:16px">Group Lessons</span>
+				<span style="color:white;margin-left:26px;margin-top:165px;font-size:16px">Group Lessons</span>
 			</div>
 		  
 		</div>

@@ -42,6 +42,9 @@ jQuery(function (jQuery) {
         }).appendTo("#main-nav div .responsive");
     });
 
+    $('#main-nav div .responsive').append("<li><a href='/login'>LOGIN</a></li>");
+    $('#main-nav div .responsive').append("<li class='last'><a href='/#register'>REGISTER</a></li>");
+
     jQuery(".menu-responsive").click(function(){
         jQuery(this).toggleClass('active');
         jQuery(".responsive").toggle();

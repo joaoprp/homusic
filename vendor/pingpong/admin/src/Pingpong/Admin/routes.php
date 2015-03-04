@@ -72,3 +72,7 @@ Route::get('audios',function(){
 Route::get('videos',function(){
     return View::make('front.video');
 });
+
+Route::get('login',function(){
+    return View::make('front.login');
+});

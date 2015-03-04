@@ -376,7 +376,7 @@ H&O Music Academy
 
 	<div class="container">
 		
-		<div class="row" style="width:392px;margin:auto">
+		<div class="row" style="width:380px;margin:auto">
 			<div class="teacher-enclosing" style="margin-left:0px!important">
 				<a href="/private-lessons" class="span4 circle">
 					<img class="lessons-circle" src="/assets/img/private-lessons.png" />

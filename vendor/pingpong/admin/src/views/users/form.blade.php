@@ -30,7 +30,7 @@
 	</div>
 	<div class="form-group">
 		{{ Form::label('role', 'Role:') }}
-		{{ Form::select('role', $role, isset($role) ? $role : null, ['class' => 'form-control']) }}
+		{{ Form::select('role', $roles, isset($role) ? $role : null, ['class' => 'form-control']) }}
 		{{ $errors->first('role', '<div class="text-danger">:message</div>') }}
 	</div>
 	<div class="form-group">
